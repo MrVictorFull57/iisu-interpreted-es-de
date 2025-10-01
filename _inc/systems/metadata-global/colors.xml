@@ -1,0 +1,64 @@
+﻿<theme>
+    <colorScheme name="dark-original,dark-custom">
+        <variables>
+            <helpTextColor>999999</helpTextColor>
+            <helpIconColor>bbbbbb</helpIconColor>
+            <helpTextColorDimmed>aaaaaa</helpTextColorDimmed>
+            <helpIconColorDimmed>aaaaaa</helpIconColorDimmed>
+            <backgroundColor>2d2d2d</backgroundColor>
+            <backgroundArtGradientImage>background-art-gradient-dark.png</backgroundArtGradientImage>
+            <systemInfoColor>cccccc</systemInfoColor>
+            <systemCarouselTextColor>eeeeee</systemCarouselTextColor>
+            <systemCarouselTextBackgroundColor>000000</systemCarouselTextBackgroundColor>
+            <gamelistLogoColor>cccccc</gamelistLogoColor>
+            <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+            <gamelistBackgroundOpacity>0.04</gamelistBackgroundOpacity>
+            <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
+            <gamelistSelectorColor>777777</gamelistSelectorColor>
+            <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+            <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+            <gamelistSecondaryColor>777777</gamelistSecondaryColor>
+            <gameDescriptionColor>ffffff</gameDescriptionColor>
+            <gameMetadataColor>bbbbbb</gameMetadataColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="light-original,light-custom">
+        <variables>
+            <helpTextColor>999999</helpTextColor>
+            <helpIconColor>777777</helpIconColor>
+            <helpTextColorDimmed>333333</helpTextColorDimmed>
+            <helpIconColorDimmed>333333</helpIconColorDimmed>
+            <backgroundColor>fbfbfb</backgroundColor>
+            <backgroundArtGradientImage>background-art-gradient-light.png</backgroundArtGradientImage>
+            <systemInfoColor>555555</systemInfoColor>
+            <systemCarouselTextColor>ffffff</systemCarouselTextColor>
+            <systemCarouselTextBackgroundColor>111111</systemCarouselTextBackgroundColor>
+            <gamelistLogoColor>555555</gamelistLogoColor>
+            <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
+            <gamelistBackgroundOpacity>0.3</gamelistBackgroundOpacity>
+            <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
+            <gamelistSelectorColor>404040</gamelistSelectorColor>
+            <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+            <gamelistPrimaryColor>a0a0a0</gamelistPrimaryColor>
+            <gamelistSecondaryColor>a0a0a0</gamelistSecondaryColor>
+            <gameDescriptionColor>000000</gameDescriptionColor>
+            <gameMetadataColor>555555</gameMetadataColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="dark-original,light-original">
+        <variables>
+            <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
+            <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
+            <backgroundArtPath>./_inc/systems/backgrounds/${system.theme}.jpg</backgroundArtPath>
+            <backgroundArtDefaultImage>./_inc/systems/backgrounds/_default.jpg</backgroundArtDefaultImage>
+        </variables>
+    </colorScheme>
+    <colorScheme name="dark-custom,light-custom">
+        <variables>
+            <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
+            <systemCarouselArtPath>~/ES-DE/theme-customizations/alekfull-nx/carousel-icons/${system.theme}.png</systemCarouselArtPath>
+            <backgroundArtPath>~/ES-DE/theme-customizations/alekfull-nx/backgrounds/${system.theme}.jpg</backgroundArtPath>
+            <backgroundArtDefaultImage>~/ES-DE/theme-customizations/alekfull-nx/backgrounds/_default.jpg</backgroundArtDefaultImage>
+        </variables>
+    </colorScheme>
+</theme>

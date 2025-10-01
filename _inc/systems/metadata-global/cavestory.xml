@@ -1,0 +1,105 @@
+<theme>
+    <variables>
+        <systemDescription>Cave Story, originally released as Dōkutsu Monogatari, is a 2004 Metroidvania platform-adventure game for Microsoft Windows. It was developed over five years by Japanese independent developer Daisuke "Pixel" Amaya in his free time. Cave Story features 2D platform mechanics and is reminiscent of the games Amaya played in his youth, such as Metroid and Castlevania. After its initial self-published release, the game slowly gained popularity on the internet. It received widespread critical acclaim for many polished aspects of its design, such as its compelling characters, setting, story, and gameplay. Cave Story is considered by many as the quintessential indie game because of its one-person development team and influence on the video gaming world. NXENGINE is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story)</systemDescription>
+        <systemManufacturer>Studio Pixel</systemManufacturer>
+        <systemReleaseYear>2004</systemReleaseYear>
+        <systemReleaseDate>2004-12-20</systemReleaseDate>
+        <systemReleaseDateFormated>December 20, 2004</systemReleaseDateFormated>
+        <systemHardwareType>Engine</systemHardwareType>
+        <systemColor>CE413E</systemColor>
+        <systemColorPalette1>648DBD</systemColorPalette1>
+        <systemColorPalette2>B63523</systemColorPalette2>
+        <systemColorPalette3>6F1312</systemColorPalette3>
+        <systemColorPalette4>182142</systemColorPalette4>
+    </variables>
+    <language name="ca_ES">
+        <variables>
+            <systemDescription>Cave Story, originalment llançat com a Dōkutsu Monogatari, és un joc de Metroidvania de Metroidvania del 2004 per a Microsoft Windows. Va ser desenvolupat durant cinc anys pel desenvolupador independent japonès Daisuke "Pixel" Amaya en el seu temps lliure. Cave Story compta amb la mecànica de la plataforma 2D i recorda els jocs que Amaya va jugar a la seva joventut, com Metroid i Castlevania. Després del seu llançament inicial per autoeditat, el joc va guanyar lentament popularitat a Internet. Va rebre una gran aclamació crítica per molts aspectes polits del seu disseny, com ara els seus personatges convincents, la configuració, la història i el joc. Cave Story és considerat per molts com el joc indie per excel·lència a causa del seu equip de desenvolupament d’una sola persona i la influència en el món dels videojocs. NxEngine és un clon/reescriptura complet de codi obert de la plataforma de salt i executada Doukutsu Monogatari (també coneguda com a Cave Story)</systemDescription>
+            <systemHardwareType>Engine</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Cave Story, ursprünglich als Dōkutsu Monogatari veröffentlicht, ist ein Metroidvania-Plattform-Abenteuer aus dem Jahr 2004 für Microsoft Windows. Es wurde über fünf Jahre von dem japanischen unabhängigen Entwickler Daisuke "Pixel" Amaya in seiner Freizeit entwickelt. Cave Story zeichnet sich durch eine 2D-Plattformmechanik aus und erinnert an die Spiele, die Amaya in seiner Jugend gespielt hat, wie Metroid und Castlevania. Nach seiner ersten Veröffentlichung im Eigenverlag wurde das Spiel im Internet langsam populär. Es erhielt viel Lob von der Kritik für die vielen ausgefeilten Aspekte seines Designs, wie die fesselnden Charaktere, das Setting, die Geschichte und das Gameplay. Cave Story wird von vielen als der Inbegriff eines Indie-Spiels angesehen, weil es von einem Ein-Mann-Entwicklerteam entwickelt wurde und die Videospielwelt beeinflusst hat. NXENGINE ist ein vollständiger Open-Source-Klon/eine Neufassung des meisterhaften Jump-and-Run-Plattformer Doukutsu Monogatari (auch bekannt als Cave Story).</systemDescription>
+            <systemHardwareType>Motor</systemHardwareType>
+        </variables>
+    </language>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Cave Story, publicado originalmente como Dōkutsu Monogatari, es un juego de aventuras y plataformas metroidvania de 2004 para Microsoft Windows. Fue desarrollado durante cinco años por el desarrollador independiente japonés Daisuke "Pixel" Amaya en su tiempo libre. Cave Story presenta una mecánica de plataformas en 2D y recuerda a los juegos a los que Amaya jugó en su juventud, como Metroid y Castlevania. Tras su publicación inicial, el juego fue ganando popularidad poco a poco en Internet. Recibió elogios generalizados de la crítica por muchos aspectos pulidos de su diseño, como sus atractivos personajes, ambientación, historia y jugabilidad. Cave Story es considerado por muchos como el juego indie por excelencia debido a su equipo de desarrollo unipersonal y a su influencia en el mundo de los videojuegos. NXENGINE es un clon/reescritura completa de código abierto de la obra maestra del juego de plataformas de saltar y correr Doukutsu Monogatari (también conocido como Cave Story).</systemDescription>
+            <systemHardwareType>Motor</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Cave Story, initialement publié sous le nom de Dōkutsu Monogatari, est un jeu d'aventure et de plateforme Metroidvania de 2004 pour Microsoft Windows. Il a été développé pendant cinq ans par le développeur indépendant japonais Daisuke "Pixel" Amaya pendant son temps libre. Cave Story présente des mécanismes de plate-forme en 2D et rappelle les jeux auxquels Amaya a joué dans sa jeunesse, tels que Metroid et Castlevania. Après sa sortie initiale en auto-publication, le jeu a lentement gagné en popularité sur Internet. Il a été largement salué par la critique pour les nombreux aspects soignés de sa conception, tels que les personnages, le cadre, l'histoire et la jouabilité. Cave Story est considéré par beaucoup comme la quintessence du jeu indépendant en raison de son équipe de développement composée d'une seule personne et de son influence sur le monde du jeu vidéo. NXENGINE est un clone/réécriture open-source complet du chef-d'œuvre de plateforme de type "jump and run" Doukutsu Monogatari (également connu sous le nom de Cave Story).</systemDescription>
+            <systemHardwareType>Moteur</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Cave Story, originariamente pubblicato come Dōkutsu Monogatari, è un gioco di piattaforma-avventura Metroidvania del 2004 per Microsoft Windows. È stato sviluppato nell'arco di cinque anni dallo sviluppatore indipendente giapponese Daisuke "Pixel" Amaya nel suo tempo libero. Cave Story è caratterizzato da meccaniche platform 2D e ricorda i giochi a cui Amaya giocava in gioventù, come Metroid e Castlevania. Dopo l'iniziale pubblicazione autonoma, il gioco ha lentamente guadagnato popolarità su Internet. Ha ricevuto ampi consensi dalla critica per molti aspetti curati del suo design, come i personaggi, l'ambientazione, la storia e il gameplay. Cave Story è considerato da molti come la quintessenza del gioco indie, grazie al suo team di sviluppo composto da una sola persona e alla sua influenza sul mondo dei videogiochi. NXENGINE è un clone/riscrittura completamente open-source del capolavoro platform a salto e corsa Doukutsu Monogatari (noto anche come Cave Story).</systemDescription>
+            <systemHardwareType>Motore</systemHardwareType>
+        </variables>
+    </language>
+    <language name="nl_NL">
+        <variables>
+            <systemDescription>Cave Story, oorspronkelijk uitgebracht als Dōkutsu Monogatari, is een metroidvania platform-avonturenspel uit 2004 voor Microsoft Windows. Het spel werd vijf jaar lang in zijn vrije tijd ontwikkeld door de Japanse onafhankelijke ontwikkelaar Daisuke "Pixel" Amaya. Cave Story bevat 2D-platformmechanica en doet denken aan de spellen die Amaya in zijn jeugd speelde, zoals Metroid en Castlevania. Na de eerste zelfgepubliceerde release werd het spel langzaam populair op het internet. Het kreeg veel lovende kritieken voor de vele gepolijste aspecten van het ontwerp, zoals de meeslepende personages, de setting, het verhaal en de gameplay. Cave Story wordt door velen beschouwd als de typische indiegame vanwege het ontwikkelteam van één persoon en de invloed op de wereld van videogames. NXENGINE is een volledige open-source kloon/herschrijving van de meesterlijke jump-and-run-platformgame Doukutsu Monogatari (ook bekend als Cave Story).</systemDescription>
+            <systemHardwareType>Motor</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pl_PL">
+        <variables>
+            <systemDescription>Cave Story, pierwotnie wydana jako Dōkutsu Monogatari, to platformowo-przygodowa gra Metroidvania z 2004 roku dla systemu Microsoft Windows. Była ona rozwijana przez pięć lat przez japońskiego niezależnego dewelopera Daisuke "Pixel" Amaya w jego wolnym czasie. Cave Story oferuje mechanikę platformową 2D i przypomina gry, w które Amaya grał w młodości, takie jak Metroid i Castlevania. Po początkowym samodzielnym wydaniu, gra powoli zyskiwała popularność w Internecie. Otrzymała ona szerokie uznanie krytyków za wiele dopracowanych aspektów jej projektu, takich jak atrakcyjne postacie, sceneria, fabuła i rozgrywka. Cave Story jest uważane przez wielu za kwintesencję gier niezależnych ze względu na jednoosobowy zespół deweloperski i wpływ na świat gier wideo. NXENGINE to kompletny open-source'owy klon/przepis arcydzieła platformówki typu jump-and-run Doukutsu Monogatari (znanej również jako Cave Story)</systemDescription>
+            <systemHardwareType>Silnik</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Cave Story, originalmente lançado como Dōkutsu Monogatari, é um jogo de plataforma e aventura Metroidvania de 2004 para Microsoft Windows. Ele foi desenvolvido ao longo de cinco anos pelo desenvolvedor independente japonês Daisuke "Pixel" Amaya em seu tempo livre. Cave Story apresenta mecânica de plataforma 2D e lembra os jogos que Amaya jogou em sua juventude, como Metroid e Castlevania. Depois de seu lançamento inicial, publicado por conta própria, o jogo ganhou popularidade lentamente na Internet. Ele foi amplamente aclamado pela crítica por muitos aspectos refinados de seu design, como personagens atraentes, cenário, história e jogabilidade. Cave Story é considerado por muitos como o jogo indie por excelência devido à sua equipe de desenvolvimento de uma só pessoa e à sua influência no mundo dos videogames. O NXENGINE é um clone/reescrita de código aberto completo da obra-prima de plataforma de salto e corrida Doukutsu Monogatari (também conhecido como Cave Story)</systemDescription>
+            <systemHardwareType>Motor</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ro_RO">
+        <variables>
+            <systemDescription>Cave Story, lansat inițial ca Dōkutsu Monogatari, este un joc de aventură și platformă Metroidvania 2004 pentru Microsoft Windows. Acesta a fost dezvoltat pe parcursul a cinci ani de către dezvoltatorul independent japonez Daisuke "Pixel" Amaya în timpul său liber. Cave Story are o mecanică de platformă 2D și amintește de jocurile pe care Amaya le-a jucat în tinerețe, cum ar fi Metroid și Castlevania. După lansarea sa inițială auto-publicată, jocul a câștigat încet popularitate pe internet. Acesta a primit o largă apreciere critică pentru multe aspecte lustruite ale designului său, cum ar fi personajele sale convingătoare, setarea, povestea și gameplay-ul. Cave Story este considerat de mulți ca fiind chintesența jocurilor indie datorită echipei sale de dezvoltare formate dintr-o singură persoană și a influenței sale asupra lumii jocurilor video. NXENGINE este o clonă/rescriere open-source completă a capodoperei de platformă jump-and-run Doukutsu Monogatari (cunoscută și sub numele de Cave Story)</systemDescription>
+            <systemHardwareType>Motor</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ru_RU">
+        <variables>
+            <systemDescription>Cave Story, первоначально выпущенная под названием Dōkutsu Monogatari, - это приключенческая игра в жанре Metroidvania для Microsoft Windows 2004 года. Она разрабатывалась в течение пяти лет японским независимым разработчиком Дайсуке "Пикселем" Амайей в свободное от работы время. Cave Story имеет механику 2D-платформера и напоминает игры, в которые Амайя играл в юности, такие как Metroid и Castlevania. После первоначального самоиздания игра постепенно завоевала популярность в интернете. Она получила широкое признание критиков за множество отточенных аспектов своего дизайна, таких как убедительные персонажи, сеттинг, сюжет и геймплей. Многие считают Cave Story квинтэссенцией инди-игр, ведь ее разработкой занималась команда из одного человека, и она оказала влияние на мир видеоигр. NXENGINE - это полный клон/переработка шедеврального платформера Doukutsu Monogatari (также известного как Cave Story) с открытым исходным кодом.</systemDescription>
+            <systemHardwareType>Двигатель</systemHardwareType>
+        </variables>
+    </language>
+    <language name="sv_SE">
+        <variables>
+            <systemDescription>Cave Story, som ursprungligen släpptes som Dōkutsu Monogatari, är ett Metroidvania-plattformsäventyrsspel från 2004 för Microsoft Windows. Det utvecklades under fem år av den japanska oberoende utvecklaren Daisuke "Pixel" Amaya på hans fritid. Cave Story har 2D-plattformsmekanik och påminner om de spel som Amaya spelade i sin ungdom, som Metroid och Castlevania. Efter den första egenpublicerade utgåvan blev spelet långsamt populärt på internet. Det fick omfattande kritikerros för många polerade aspekter av dess design, till exempel dess övertygande karaktärer, miljö, berättelse och gameplay. Cave Story anses av många vara det mest typiska indiespelet på grund av sitt enmansutvecklingsteam och sitt inflytande på videospelvärlden. NXENGINE är en komplett kloning/omskrivning med öppen källkod av mästerverket Doukutsu Monogatari (även känt som Cave Story)</systemDescription>
+            <systemHardwareType>Motor</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>洞窟物語』（どうくつものがたり）は、2004年に発売されたMicrosoft Windows用のメトロイドヴァニア・プラットフォーム・アドベンチャーゲームである。日本のインディーズ開発者である天谷 "ピクセル "大輔が、自由な時間に5年かけて開発した。ケイブストーリーは2Dプラットフォームのメカニクスが特徴で、メトロイドや悪魔城ドラキュラなど、天谷氏が若い頃にプレイしたゲームを彷彿とさせる。最初に自費出版でリリースされた後、このゲームはインターネット上で徐々に人気を博した。魅力的なキャラクター、設定、ストーリー、ゲームプレイなど、洗練されたデザインの数々が広く称賛された。Cave Storyは、その一人の開発チームとビデオゲーム界への影響力から、多くの人からインディーゲームの真髄と見なされています。NXENGINEは傑作ジャンプ＆ランプラットフォーマー「洞窟物語」の完全なオープンソースクローン／リライトです。</systemDescription>
+            <systemHardwareType>エンジン</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ko_KR">
+        <variables>
+            <systemDescription>원래 도쿠츠 모노가타리라는 이름으로 출시된 케이브 스토리는 2004년 출시된 Microsoft Windows용 메트로배니아 플랫폼 어드벤처 게임입니다. 이 게임은 일본의 독립 개발자 Daisuke "Pixel" Amaya가 여가 시간에 5년에 걸쳐 개발했습니다. 케이브 스토리는 2D 플랫폼 메커니즘을 특징으로 하며, 아마야가 어린 시절에 플레이했던 메트로이드와 캐슬바니아 같은 게임을 연상시킵니다. 이 게임은 처음 자체 퍼블리싱으로 출시된 후 인터넷에서 서서히 인기를 얻었습니다. 매력적인 캐릭터, 설정, 스토리, 게임플레이 등 디자인의 여러 가지 세련된 측면에 대해 광범위한 비평가들의 찬사를 받았습니다. 케이브 스토리는 1인 개발팀과 비디오 게임 업계에 미친 영향력으로 인해 많은 사람들에게 인디 게임의 정수로 여겨지고 있습니다. NXENGINE은 명작 점프 앤 런 플랫포머인 동굴의 모노가타리(일명 케이브 스토리)의 완전한 오픈 소스 클론/재작성입니다.</systemDescription>
+            <systemHardwareType>엔진</systemHardwareType>
+        </variables>
+    </language>
+    <language name="zh_CN">
+        <variables>
+            <systemDescription>洞穴物语》（Cave Story）原名为《洞穴物语》（Dōkutsu Monogatari），是一款于 2004 年在微软 Windows 平台上推出的 Metroidvania 平台冒险游戏。该游戏由日本独立开发商天谷大辅（Daisuke "Pixel" Amaya）利用业余时间历时五年开发完成。Cave Story》采用 2D 平台机制，让人想起天谷年轻时玩过的游戏，如《Metroid》和《恶魔城》。这款游戏最初是自行发布的，后来慢慢在互联网上流行起来。这款游戏在设计上有许多精妙之处，如引人入胜的人物、场景、故事和游戏性等，因此获得了广泛的好评。洞穴物语》因其单人开发团队和在视频游戏界的影响力，被许多人视为典型的独立游戏。NXENGINE 是对《斗破苍穹》（又名《洞穴物语》）这款跳跃式跑酷平台游戏杰作的完全开源克隆/重写。</systemDescription>
+            <systemHardwareType>发动机</systemHardwareType>
+        </variables>
+    </language>
+    <language name="zh_TW">
+        <variables>
+            <systemDescription>洞穴物語》（Cave Story）原名為《Dōkutsu Monogatari》，是一款於 2004 年推出的 Metroidvania 平台冒險遊戲，適用於 Microsoft Windows。本遊戲由日本獨立開發者 Daisuke "Pixel" Amaya 利用空閒時間花了五年時間開發完成。Cave Story 採用 2D 平台機制，讓人聯想到 Amaya 年輕時玩過的遊戲，例如 Metroid 和 Castlevania。在最初自行發行之後，遊戲慢慢地在網際網路上受到歡迎。它在設計上有許多精良的地方，例如引人入勝的角色、設定、故事和遊戲性，因此獲得廣泛的好評。Cave Story》因其一人開發團隊和在電子遊戲界的影響力，被許多人認為是典型的獨立遊戲。NXENGINE 是一款完全開源複製/重寫的跳躍與奔跑平台遊戲大作《Doukutsu Monogatari》（也稱為《洞穴物語》）。</systemDescription>
+            <systemHardwareType>引擎</systemHardwareType>
+        </variables>
+    </language>
+</theme>

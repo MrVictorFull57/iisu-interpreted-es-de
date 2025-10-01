@@ -1,0 +1,40 @@
+<themeCapabilities>
+   
+	<themeName>iiSU (Mockup)</themeName>
+   
+	<!--///	Aspect Ratios ///-->
+	<aspectRatio>16:9</aspectRatio>
+
+	<!--///	Font Size ///-->
+	<fontSize>medium</fontSize>
+	
+	<!--/// Transitions ///-->
+	<transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>instant</systemToGamelist>
+		<gamelistToGamelist>instant</gamelistToGamelist>
+		<gamelistToSystem>instant</gamelistToSystem>
+		<startupToSystem>fade</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+   
+	<!--/// Variants ///-->
+	<variant name="gamelist-carousel">
+		<label>Carousel</label>
+		<selectable>false</selectable>
+	</variant>
+
+	<!--///	Color Schemes ///-->
+	<colorScheme name="default">
+        <label>Default</label>
+		<selectable>false</selectable>
+    </colorScheme>
+
+</themeCapabilities>

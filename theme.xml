@@ -1,0 +1,421 @@
+<!--
+name: 	iiSU (Mockup)
+by:   	MrFull57
+-->
+
+<theme>
+
+	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+
+	<variables>
+		<spacerImage>./_inc/images/space.png</spacerImage>
+		<fontMedium>./_inc/fonts/solheavy.ttf</fontMedium>
+	</variables>
+	
+	<colorScheme name="default">
+        <variables>
+			<artworkFolder>./_inc/systems/artwork/${system.theme}.webp</artworkFolder>
+			<fallbackImage>./_inc/systems/artwork/_default.png</fallbackImage>
+		</variables>
+    </colorScheme>
+	
+	<!--///	All Views ///-->
+	<view name="system,gamelist">
+		<image name="system-background">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>f4f4f4</color>
+			<colorEnd>ececec</colorEnd>
+			<gradientType>vertical</gradientType>
+			<zIndex>1</zIndex>
+		</image>
+		<helpsystem name="help-esquerdo">
+			<origin>0 0</origin>
+			<pos>0.025 0.925</pos>
+			<fontSize>0.026</fontSize>
+			<fontSizeDimmed>0.026</fontSizeDimmed>
+			<fontPath>${fontMedium}</fontPath>
+			<letterCase>capitalize</letterCase>
+			<iconColor>706a78</iconColor>
+			<textColor>706a78</textColor>
+			<originDimmed>0.5 0</originDimmed>
+			<posDimmed>0.5 0.94</posDimmed>
+			<textColorDimmed>3e3846</textColorDimmed>
+			<iconColorDimmed>3e3846</iconColorDimmed>
+			<opacityDimmed>1.0</opacityDimmed>
+			<scope>view</scope>
+		</helpsystem>
+		<helpsystem name="help-direito">
+			<origin>1 0</origin>
+			<pos>0.975 0.925</pos>
+			<fontSize>0.026</fontSize>
+			<fontSizeDimmed>0.026</fontSizeDimmed>
+			<fontPath>${fontMedium}</fontPath>
+			<letterCase>capitalize</letterCase>
+			<iconColor>706a78</iconColor>
+			<textColor>706a78</textColor>
+			<originDimmed>0.5 0</originDimmed>
+			<posDimmed>0.5 0.94</posDimmed>
+			<textColorDimmed>3e3846</textColorDimmed>
+			<iconColorDimmed>3e3846</iconColorDimmed>
+			<opacityDimmed>1.0</opacityDimmed>
+			<scope>view</scope>
+		</helpsystem>
+		<helpsystem name="help-menu">
+			<origin>1 0</origin>
+			<pos>0.975 0.925</pos>
+			<fontSize>0.026</fontSize>
+			<fontSizeDimmed>0.026</fontSizeDimmed>
+			<fontPath>${fontMedium}</fontPath>
+			<letterCase>capitalize</letterCase>
+			<iconColor>706a78</iconColor>
+			<textColor>706a78</textColor>
+			<originDimmed>0.5 0</originDimmed>
+			<posDimmed>0.5 0.94</posDimmed>
+			<textColorDimmed>3e3846</textColorDimmed>
+			<iconColorDimmed>3e3846</iconColorDimmed>
+			<opacityDimmed>1.0</opacityDimmed>
+			<scope>menu</scope>
+			<entries>start,a,b</entries>
+		</helpsystem>
+		<systemstatus name="system-status">
+			<fontPath>${fontMedium}</fontPath>
+			<height>0.042</height>
+			<color>706a78</color>
+			<pos>0.98 0.0615</pos>
+		</systemstatus>
+		<clock name="clock">
+			<fontPath>${fontMedium}</fontPath>
+			<fontSize>0.037</fontSize>
+			<color>706a78</color>
+			<pos>0.795 0.062</pos>
+		</clock>
+		<clock name="data-de-hoje">
+			<fontPath>${fontMedium}</fontPath>
+			<fontSize>0.037</fontSize>
+			<color>706a78</color>
+			<pos>0.882 0.062</pos>
+			<format>%d/%m</format>
+		</clock>
+	</view>
+	<view name="system">
+		<image name="system-background">
+			<stationary>always</stationary>
+		</image>
+	</view>
+	<view name="gamelist">
+		<image name="system-background">
+			<renderDuringTransitions>false</renderDuringTransitions>
+		</image>
+	</view>
+
+	<!--/// System View ///-->
+	<view name="system">
+		<image name="system-background-bolinhas">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/fundo_bolinhas.png</path>
+			<tile>true</tile>
+			<color>ffffff</color>
+			<zIndex>2</zIndex>
+		</image>
+		<carousel name="system-carousel">
+			<origin>0.5 0.5</origin>
+			<pos>0.235 0.5</pos>
+			<size>0.7 1</size>
+			<type>vertical</type>
+			<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+			<unfocusedItemDimming>0.9</unfocusedItemDimming>
+			<itemScale>2</itemScale>
+			<selectedItemOffset>0.09 0</selectedItemOffset>
+			<defaultImage>${fallbackImage}</defaultImage>
+			<staticImage>${artworkFolder}</staticImage>
+			<imageCornerRadius>0.008</imageCornerRadius>
+			<fastScrolling>true</fastScrolling>
+			<color>00000000</color>
+			<textColor>706a78</textColor>
+			<textBackgroundColor>33333340</textBackgroundColor>
+			<fontSize>0.045</fontSize>
+		</carousel>
+		<image name="elementos-system">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/elementos-system.png</path>
+			<zIndex>3</zIndex>
+		</image>
+		<text name="system-nome">
+			<origin>0 1</origin>
+			<pos>0.4075 0.485</pos>
+			<size>0.45 0.2</size>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>center</verticalAlignment>
+			<fontPath>${fontMedium}</fontPath>
+			<systemdata>fullname</systemdata>
+			<color>706a78</color>
+		</text>
+		<text name="system-nome-sombra">
+			<origin>0 1</origin>
+			<pos>0.4105 0.491</pos>
+			<size>0.45 0.2</size>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>center</verticalAlignment>
+			<fontPath>${fontMedium}</fontPath>
+			<systemdata>fullname</systemdata>
+			<color>00000033</color>
+			<zIndex>5</zIndex>
+		</text>
+		<text name="system-game-count">
+			<origin>0 0</origin>
+			<pos>0.41 0.478</pos>
+			<fontSize>${systemGameCountFontSize}</fontSize> 
+			<fontPath>${fontMedium}</fontPath>
+			<systemdata>gamecount</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>706a78</color>
+		</text>
+		<text name="system-metadata">
+			<origin>0 0</origin>
+			<pos>0.41 0.513</pos>
+			<size>0 0</size>
+			<fontSize>${systemMetadataFontSize}</fontSize>
+			<fontPath>${fontMedium}</fontPath>
+			<text>${systemManufacturer}  ${systemReleaseYear}</text>
+			<color>706a78</color>
+		</text>
+		<image name="system-console">
+			<origin>0.5 0.5</origin>
+			<pos>0.85 0.68</pos>
+			<maxSize>0.25 0.4</maxSize>
+			<path>./_inc/systems/controllers/${system.theme}.webp</path>
+			<interpolation>linear</interpolation>
+		</image>
+		<helpsystem name="help-esquerdo">
+			<entries>start</entries>
+		</helpsystem>
+		<helpsystem name="help-direito">
+			<entries>a</entries>
+		</helpsystem>
+	</view>
+	<fontSize name="medium">
+			<variables>
+				<systemGameCountFontSize>0.030</systemGameCountFontSize>
+				<systemMetadataFontSize>0.026</systemMetadataFontSize>
+			</variables>
+		</fontSize>
+   
+	<!--///	Gamelist View: Carousel	///-->
+	<variant name="gamelist-carousel">
+		<view name="gamelist">
+			<image name="background-art">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 0</size>
+				<imageType>fanart, screenshot</imageType>
+				<zIndex>2</zIndex>
+				<opacity>0.225</opacity>
+				<scrollFadeIn>true</scrollFadeIn>
+			</image>
+			<carousel name="game-carousel">
+				<origin>0.5 0.5</origin>
+				<pos>0.235 0.5</pos>
+				<size>0.7 1</size>
+				<type>vertical</type>
+				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+				<unfocusedItemDimming>0.9</unfocusedItemDimming>
+				<imageType>cover</imageType>
+				<imageCornerRadius>0.008</imageCornerRadius>
+				<fastScrolling>true</fastScrolling>
+				<color>00000000</color>
+				<textColor>706a78</textColor>
+				<textBackgroundColor>33333340</textBackgroundColor>
+				<fontSize>0.03</fontSize>
+				<itemScale>2</itemScale>
+				<itemSize>0.106 0.5</itemSize> 
+				<maxItemCount>5</maxItemCount>
+				<selectedItemMargins>0.11 0.11</selectedItemMargins>
+				<selectedItemOffset>0.09 0</selectedItemOffset>
+				<fastScrolling>true</fastScrolling>
+				<imageInterpolation>nearest</imageInterpolation>
+			</carousel>
+			<image name="elementos-gamelist">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/images/elementos-gamelist.png</path>
+				<zIndex>3</zIndex>
+			</image>
+			<image name="system-icon">
+				<path>${artworkFolder}</path>
+				<origin>0.5 0.5</origin>
+				<pos>0.088 0.5</pos>
+				<maxSize>0.11 0.5</maxSize>
+				<cornerRadius>0.008</cornerRadius>
+				<interpolation>linear</interpolation>
+			</image>
+			<text name="carousel-name">
+				<origin>0 1</origin>
+				<pos>0.4075 0.485</pos>
+				<size>0.45 0.2</size>
+				<fontSize>0.065</fontSize>
+				<lineSpacing>1.1</lineSpacing>
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>center</verticalAlignment>
+				<fontPath>${fontMedium}</fontPath>
+				<metadata>name</metadata>
+				<color>706a78</color>
+			</text>
+			<text name="carousel-name-sombra">
+				<origin>0 1</origin>
+				<pos>0.4105 0.491</pos>
+				<size>0.45 0.2</size>
+				<fontSize>0.065</fontSize>
+				<lineSpacing>1.1</lineSpacing>
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>center</verticalAlignment>
+				<fontPath>${fontMedium}</fontPath>
+				<metadata>name</metadata>
+				<color>00000033</color>
+				<zIndex>5</zIndex>
+			</text>
+			<datetime name="textlist-releasedate">
+				<origin>0 0.5</origin>
+				<pos>0.45 0.57</pos>
+				<size>0.45 0.16</size>
+				<fontSize>0.026</fontSize>
+				<fontPath>${fontMedium}</fontPath>
+				<metadata>releasedate</metadata>
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>top</verticalAlignment>
+				<color>706a78</color>
+				<format>%d/%m/%Y</format>
+			</datetime>
+			<text name="textlist-players">
+				<origin>0 0.5</origin>
+				<pos>0.45 0.615</pos>
+				<size>0.45 0.16</size>
+				<fontSize>0.026</fontSize>
+				<fontPath>${fontMedium}</fontPath>
+				<metadata>players</metadata>
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>top</verticalAlignment>
+				<metadataElement>true</metadataElement>
+				<color>706a78</color>
+			</text>
+			<text name="textlist-developer">
+				<origin>0 0.5</origin>
+				<pos>0.45 0.663</pos>
+				<size>0.1725 0.16</size>
+				<fontSize>0.026</fontSize>
+				<fontPath>${fontMedium}</fontPath>
+				<metadata>developer</metadata>
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>top</verticalAlignment>
+				<metadataElement>true</metadataElement>
+				<color>706a78</color>
+				<container>true</container>
+				<containerType>horizontal</containerType>
+			</text>
+			<datetime name="textlist-lastplayed">
+				<origin>0 0.5</origin>
+				<pos>0.45 0.715</pos>
+				<size>0.45 0.16</size>
+				<fontSize>0.026</fontSize>
+				<fontPath>${fontMedium}</fontPath>
+				<metadata>lastplayed</metadata>
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>top</verticalAlignment>
+				<color>706a78</color>
+			</datetime>
+			<video name="textlist-video">
+				<pos>0.835 0.705</pos>
+				<cropSize>0.3 0.35</cropSize>
+				<origin>0.5 0.5</origin>
+				<videoCornerRadius>0.01</videoCornerRadius>
+				<imageCornerRadius>0.01</imageCornerRadius>
+				<imageType>screenshot</imageType>
+				<delay>1.5</delay>
+				<pillarboxes>false</pillarboxes>
+			</video>
+			<badges name="carousel-badges">
+				<origin>0.5 0</origin>
+				<pos>0.83 0.485</pos>
+				<size>1 0.026</size>
+				<horizontalAlignment>center</horizontalAlignment>
+				<itemMargin>0.002 -1</itemMargin>
+				<lines>1</lines>
+				<itemsPerLine>9</itemsPerLine>
+				<slots>all</slots>
+				<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+				<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+				<customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+				<customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+				<customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+				<customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+				<customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+				<customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+				<customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+				<badgeIconColor>706a78</badgeIconColor>
+				<controllerSize>0.8</controllerSize>
+				<folderLinkSize>0.8</folderLinkSize>
+			</badges>
+			<helpsystem name="help-esquerdo">
+				<entries>b</entries>
+			</helpsystem>
+			<helpsystem name="help-direito">
+				<entries>start,back,x,y,a</entries>
+			</helpsystem>
+		</view>
+		<fontSize name="medium">
+			<variables>
+				<carouselGameNameFontSize>0.065</carouselGameNameFontSize>
+				<carouselSystemNameFontSize>0.026</carouselSystemNameFontSize>
+			</variables>
+		</fontSize>
+	</variant>
+	
+
+	<!--///	Aspect Ratios ///-->
+	<aspectRatio name="16:9">
+        <view name="system">
+			<carousel name="system-carousel">
+				<itemSize>0.106 0.4</itemSize> 
+				<maxItemCount>5</maxItemCount>
+				<selectedItemMargins>0.11 0.11</selectedItemMargins>
+			</carousel>
+		</view>
+    </aspectRatio>
+	
+	<view name="all">
+		<sound name="systembrowse">
+			<path>./_inc/sounds/systembrowse.wav</path>
+		</sound>
+		<sound name="quicksysselect">
+			<path>./_inc/sounds/quicksysselect.wav</path>
+		</sound>
+		<sound name="select">
+			<path>./_inc/sounds/select.wav</path>
+		</sound>
+		<sound name="back">
+			<path>./_inc/sounds/back.wav</path>
+		</sound>
+		<sound name="scroll">
+			<path>./_inc/sounds/scroll.wav</path>
+		</sound>
+		<sound name="favorite">
+			<path>./_inc/sounds/favorite.wav</path>
+		</sound>
+		<sound name="launch">
+			<path>./_inc/sounds/launch.wav</path>
+		</sound>
+	</view>
+</theme>
