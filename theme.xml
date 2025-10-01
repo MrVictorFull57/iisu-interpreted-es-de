@@ -297,7 +297,6 @@ by:   	MrFull57
 				<horizontalAlignment>left</horizontalAlignment>
 				<verticalAlignment>top</verticalAlignment>
 				<color>706a78</color>
-				<format>%d/%m/%Y</format>
 			</datetime>
 			<text name="textlist-players">
 				<origin>0 0.5</origin>
