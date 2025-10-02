@@ -222,7 +222,7 @@ by:   	MrFull57
 				<size>1 0</size>
 				<imageType>fanart, screenshot</imageType>
 				<zIndex>2</zIndex>
-				<opacity>0.225</opacity>
+				<opacity>0.24</opacity>
 				<scrollFadeIn>true</scrollFadeIn>
 			</image>
 			<carousel name="game-carousel">
