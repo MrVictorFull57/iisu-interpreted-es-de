@@ -386,7 +386,7 @@ by:   	MrFull57
 				<textBackgroundColor>33333340</textBackgroundColor>
 				<fontSize>0.03</fontSize>
 				<itemScale>2</itemScale>
-				<itemSize>0.106 0.5</itemSize> 
+				<itemSize>0.106 0.19</itemSize> 
 				<maxItemCount>5</maxItemCount>
 				<selectedItemMargins>0.11 0.11</selectedItemMargins>
 				<selectedItemOffset>0.09 0</selectedItemOffset>
@@ -401,6 +401,7 @@ by:   	MrFull57
 			</image>
 			<image name="system-icon">
 				<path>${artworkFolder}</path>
+				<default>${fallbackSystem}</default>
 				<origin>0.5 0.5</origin>
 				<pos>0.088 0.5</pos>
 				<maxSize>0.11 0.5</maxSize>
