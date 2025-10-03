@@ -1,5 +1,5 @@
 <!--
-name: 	iiSU (Mockup)
+name: 	iiSU Interpreted
 by:   	MrFull57
 -->
 
@@ -13,7 +13,8 @@ by:   	MrFull57
 		<fontMedium>./_inc/fonts/solheavy.ttf</fontMedium>
 		<langLabelTotalGames>Total Games:</langLabelTotalGames>
 		<artworkFolder>./_inc/systems/artwork/${system.theme}.webp</artworkFolder>
-		<fallbackImage>./_inc/systems/artwork/_default.png</fallbackImage>
+		<fallbackSystem>./_inc/systems/artwork/_default_sys.webp</fallbackSystem>
+		<fallbackGame>./_inc/systems/artwork/_default_game.webp</fallbackGame>
 	</variables>
 
 	<!--///	Esquemas de Cores ///-->
@@ -226,7 +227,7 @@ by:   	MrFull57
 			<unfocusedItemDimming>0.9</unfocusedItemDimming>
 			<itemScale>2</itemScale>
 			<selectedItemOffset>0.09 0</selectedItemOffset>
-			<defaultImage>${fallbackImage}</defaultImage>
+			<defaultImage>${fallbackSystem}</defaultImage>
 			<staticImage>${artworkFolder}</staticImage>
 			<imageCornerRadius>0.008</imageCornerRadius>
 			<fastScrolling>true</fastScrolling>
@@ -378,6 +379,7 @@ by:   	MrFull57
 				<unfocusedItemDimming>0.9</unfocusedItemDimming>
 				<imageType>cover</imageType>
 				<imageCornerRadius>0.008</imageCornerRadius>
+				<defaultImage>${fallbackGame}</defaultImage>
 				<fastScrolling>true</fastScrolling>
 				<color>00000000</color>
 				<textColor>${CorLetrasTitulos}</textColor>
