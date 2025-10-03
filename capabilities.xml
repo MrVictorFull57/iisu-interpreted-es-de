@@ -1,14 +1,35 @@
 <themeCapabilities>
    
 	<themeName>iiSU (Mockup)</themeName>
-   
+
+	<language>en_US</language>
+	<language>ca_ES</language>
+	<language>de_DE</language>
+	<language>es_ES</language>
+	<language>fr_FR</language>
+	<language>it_IT</language>
+	<language>nl_NL</language>
+	<language>pl_PL</language>
+	<language>pt_BR</language>
+	<language>ro_RO</language>
+	<language>ru_RU</language>
+	<language>sv_SE</language>
+	<language>ja_JP</language>
+	<language>ko_KR</language>
+	<language>zh_CN</language>
+	<language>zh_TW</language>
+
+
 	<!--///	Aspect Ratios ///-->
 	<aspectRatio>16:9</aspectRatio>
+	<aspectRatio>16:10</aspectRatio>
+	<aspectRatio>4:3</aspectRatio>
+	<aspectRatio>21:9</aspectRatio>
 
-	<!--///	Font Size ///-->
+	<!--///	Tamanhos das Fontes ///-->
 	<fontSize>medium</fontSize>
 	
-	<!--/// Transitions ///-->
+	<!--/// Transições ///-->
 	<transitions name="transitions">
 		<label>transitions</label>
 		<selectable>false</selectable>
@@ -25,16 +46,49 @@
 		<entry>builtin-fade</entry>
 	</suppressTransitionProfiles>
    
-	<!--/// Variants ///-->
+	<!--/// Variantes ///-->
 	<variant name="gamelist-carousel">
 		<label>Carousel</label>
 		<selectable>false</selectable>
 	</variant>
 
-	<!--///	Color Schemes ///-->
-	<colorScheme name="default">
-        <label>Default</label>
-		<selectable>false</selectable>
+	<!--///	Esquemas de Cores ///-->
+    <colorScheme name="light">
+        <label language="en_US">Light</label>
+        <label language="ca_ES">Clar</label>
+        <label language="de_DE">Hell</label>
+        <label language="es_ES">Claro</label>
+        <label language="fr_FR">Clair</label>
+        <label language="it_IT">Chiaro</label>
+        <label language="nl_NL">Licht</label>
+        <label language="pl_PL">Jasna</label>
+        <label language="pt_BR">Claro</label>
+        <label language="ro_RO">Luminoasă</label>
+        <label language="ru_RU">Светлая</label>
+        <label language="sv_SE">Ljust</label>
+        <label language="ja_JP">ライト</label>
+        <label language="ko_KR">라이트</label>
+        <label language="zh_CN">明亮</label>
+        <label language="zh_TW">明亮</label>
+    </colorScheme>
+
+    <colorScheme name="dark">
+        <label language="en_US">Dark</label>
+        <label language="ca_ES">Fosc</label>
+        <label language="de_DE">Dunkel</label>
+        <label language="es_ES">Oscuro</label>
+        <label language="fr_FR">Foncé</label>
+        <label language="it_IT">Scuro</label>
+        <label language="nl_NL">Donker</label>
+        <label language="pl_PL">Ciemna</label>
+        <label language="pt_BR">Escuro</label>
+        <label language="ro_RO">Întunecată</label>
+        <label language="ru_RU">Тёмная</label>
+        <label language="sv_SE">Mörkt</label>
+        <label language="ja_JP">ダーク</label>
+        <label language="ko_KR">다크</label>
+        <label language="zh_CN">暗黑</label>
+        <label language="zh_TW">暗黑</label>
     </colorScheme>
 
 </themeCapabilities>

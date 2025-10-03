@@ -11,16 +11,36 @@ by:   	MrFull57
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
 		<fontMedium>./_inc/fonts/solheavy.ttf</fontMedium>
+		<langLabelTotalGames>Total Games:</langLabelTotalGames>
+		<artworkFolder>./_inc/systems/artwork/${system.theme}.webp</artworkFolder>
+		<fallbackImage>./_inc/systems/artwork/_default.png</fallbackImage>
 	</variables>
-	
-	<colorScheme name="default">
-        <variables>
-			<artworkFolder>./_inc/systems/artwork/${system.theme}.webp</artworkFolder>
-			<fallbackImage>./_inc/systems/artwork/_default.png</fallbackImage>
+
+	<!--///	Esquemas de Cores ///-->
+	<colorScheme name="light">
+		<variables>
+			<CorFundoTopo>f4f4f4</CorFundoTopo>
+			<CorFundoRodape>ececec</CorFundoRodape>
+			<CorFundoBolinhas>ffffff</CorFundoBolinhas>
+			<CorLetrasGeral>706a78</CorLetrasGeral>
+			<CorLetrasTitulos>706a78</CorLetrasTitulos>
+			<FundoOpacidade>0.24</FundoOpacidade>
+			<CorMiniFundo>ffffff</CorMiniFundo>
 		</variables>
     </colorScheme>
-	
-	<!--///	All Views ///-->
+	<colorScheme name="dark">
+		<variables>
+			<CorFundoTopo>262626</CorFundoTopo>
+			<CorFundoRodape>161616</CorFundoRodape>
+			<CorFundoBolinhas>3c3c3c</CorFundoBolinhas>
+			<CorLetrasGeral>7f7888</CorLetrasGeral>
+			<CorLetrasTitulos>e0e0e0</CorLetrasTitulos>
+			<FundoOpacidade>0.15</FundoOpacidade>
+			<CorMiniFundo>e0e0e0</CorMiniFundo>
+		</variables>
+    </colorScheme>
+
+	<!--///	Todas as Views ///-->
 	<view name="system,gamelist">
 		<image name="system-background">
 			<origin>0 0</origin>
@@ -28,10 +48,40 @@ by:   	MrFull57
 			<size>1 1</size>
 			<path>${spacerImage}</path>
 			<tile>true</tile>
-			<color>f4f4f4</color>
-			<colorEnd>ececec</colorEnd>
+			<color>${CorFundoTopo}</color>
+			<colorEnd>${CorFundoRodape}</colorEnd>
 			<gradientType>vertical</gradientType>
 			<zIndex>1</zIndex>
+		</image>
+		<image name="reloginho">
+			<origin>1 0</origin>
+			<path>./_inc/images/reloginho.png</path>
+			<zIndex>5</zIndex>
+			<color>${CorLetrasTitulos}</color>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="reloginho-sombra">
+			<origin>1 0</origin>
+			<path>./_inc/images/reloginho.png</path>
+			<zIndex>4</zIndex>
+			<color>00000033</color>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="setinha-com-ou-sem-controle">
+			<origin>0 0.5</origin>
+			<pos>0.05 0.5</pos>
+			<size>0.115 0</size>
+			<zIndex>5</zIndex>
+			<color>${CorLetrasTitulos}</color>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="setinha-com-ou-sem-controle-sombra">
+			<origin>0 0.5</origin>
+			<pos>0.053 0.506</pos>
+			<size>0.115 0</size>
+			<zIndex>4</zIndex>
+			<color>00000033</color>
+			<interpolation>linear</interpolation>
 		</image>
 		<helpsystem name="help-esquerdo">
 			<origin>0 0</origin>
@@ -40,8 +90,8 @@ by:   	MrFull57
 			<fontSizeDimmed>0.026</fontSizeDimmed>
 			<fontPath>${fontMedium}</fontPath>
 			<letterCase>capitalize</letterCase>
-			<iconColor>706a78</iconColor>
-			<textColor>706a78</textColor>
+			<iconColor>${CorLetrasGeral}</iconColor>
+			<textColor>${CorLetrasGeral}</textColor>
 			<originDimmed>0.5 0</originDimmed>
 			<posDimmed>0.5 0.94</posDimmed>
 			<textColorDimmed>3e3846</textColorDimmed>
@@ -49,6 +99,26 @@ by:   	MrFull57
 			<opacityDimmed>1.0</opacityDimmed>
 			<scope>view</scope>
 		</helpsystem>
+		<image name="help-esquerdo-fundo">
+			<origin>0 1</origin>
+			<pos>0.012 0.97</pos>
+			<size>0.09 0.07</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>${CorMiniFundo}</color>
+			<zIndex>5</zIndex>
+			<cornerRadius>0.009</cornerRadius>
+		</image>
+		<image name="help-esquerdo-sombra">
+			<origin>0 1</origin>
+			<pos>0.015 0.976</pos>
+			<size>0.09 0.07</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>00000033</color>
+			<zIndex>4</zIndex>
+			<cornerRadius>0.009</cornerRadius>
+		</image>
 		<helpsystem name="help-direito">
 			<origin>1 0</origin>
 			<pos>0.975 0.925</pos>
@@ -56,8 +126,8 @@ by:   	MrFull57
 			<fontSizeDimmed>0.026</fontSizeDimmed>
 			<fontPath>${fontMedium}</fontPath>
 			<letterCase>capitalize</letterCase>
-			<iconColor>706a78</iconColor>
-			<textColor>706a78</textColor>
+			<iconColor>${CorLetrasGeral}</iconColor>
+			<textColor>${CorLetrasGeral}</textColor>
 			<originDimmed>0.5 0</originDimmed>
 			<posDimmed>0.5 0.94</posDimmed>
 			<textColorDimmed>3e3846</textColorDimmed>
@@ -65,6 +135,24 @@ by:   	MrFull57
 			<opacityDimmed>1.0</opacityDimmed>
 			<scope>view</scope>
 		</helpsystem>
+		<image name="help-direito-fundo">
+			<origin>1 1</origin>
+			<pos>0.987 0.97</pos>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>${CorMiniFundo}</color>
+			<zIndex>5</zIndex>
+			<cornerRadius>0.009</cornerRadius>
+		</image>
+		<image name="help-direito-sombra">
+			<origin>1 1</origin>
+			<pos>0.990 0.976</pos>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>00000033</color>
+			<zIndex>4</zIndex>
+			<cornerRadius>0.009</cornerRadius>
+		</image>
 		<helpsystem name="help-menu">
 			<origin>1 0</origin>
 			<pos>0.975 0.925</pos>
@@ -72,8 +160,8 @@ by:   	MrFull57
 			<fontSizeDimmed>0.026</fontSizeDimmed>
 			<fontPath>${fontMedium}</fontPath>
 			<letterCase>capitalize</letterCase>
-			<iconColor>706a78</iconColor>
-			<textColor>706a78</textColor>
+			<iconColor>${CorLetrasGeral}</iconColor>
+			<textColor>${CorLetrasGeral}</textColor>
 			<originDimmed>0.5 0</originDimmed>
 			<posDimmed>0.5 0.94</posDimmed>
 			<textColorDimmed>3e3846</textColorDimmed>
@@ -85,21 +173,26 @@ by:   	MrFull57
 		<systemstatus name="system-status">
 			<fontPath>${fontMedium}</fontPath>
 			<height>0.042</height>
-			<color>706a78</color>
+			<color>${CorLetrasTitulos}</color>
 			<pos>0.98 0.0615</pos>
+			<customIcon icon="icon_bluetooth">./_inc/images/icon-bt.svg</customIcon>
+			<customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
+			<customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
 		</systemstatus>
 		<clock name="clock">
 			<fontPath>${fontMedium}</fontPath>
 			<fontSize>0.037</fontSize>
-			<color>706a78</color>
-			<pos>0.795 0.062</pos>
+			<color>${CorLetrasTitulos}</color>
+			<pos>0.785 0.064</pos>
+			<horizontalAlignment>center</horizontalAlignment>
 		</clock>
 		<clock name="data-de-hoje">
 			<fontPath>${fontMedium}</fontPath>
 			<fontSize>0.037</fontSize>
-			<color>706a78</color>
-			<pos>0.882 0.062</pos>
+			<color>${CorLetrasTitulos}</color>
+			<pos>0.873 0.064</pos>
 			<format>%d/%m</format>
+			<horizontalAlignment>center</horizontalAlignment>
 		</clock>
 	</view>
 	<view name="system">
@@ -121,7 +214,7 @@ by:   	MrFull57
 			<size>1 1</size>
 			<path>./_inc/images/fundo_bolinhas.png</path>
 			<tile>true</tile>
-			<color>ffffff</color>
+			<color>${CorFundoBolinhas}</color>
 			<zIndex>2</zIndex>
 		</image>
 		<carousel name="system-carousel">
@@ -138,16 +231,18 @@ by:   	MrFull57
 			<imageCornerRadius>0.008</imageCornerRadius>
 			<fastScrolling>true</fastScrolling>
 			<color>00000000</color>
-			<textColor>706a78</textColor>
+			<textColor>${CorLetrasTitulos}</textColor>
 			<textBackgroundColor>33333340</textBackgroundColor>
 			<fontSize>0.045</fontSize>
+			<itemSize>0.106 0.4</itemSize> 
+			<maxItemCount>5</maxItemCount>
+			<selectedItemMargins>0.11 0.11</selectedItemMargins>
 		</carousel>
-		<image name="elementos-system">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./_inc/images/elementos-system.png</path>
-			<zIndex>3</zIndex>
+		<image name="setinha-com-ou-sem-controle">
+			<path>./_inc/images/setinha-com-controle.png</path>
+		</image>
+		<image name="setinha-com-ou-sem-controle-sombra">
+			<path>./_inc/images/setinha-com-controle.png</path>
 		</image>
 		<text name="system-nome">
 			<origin>0 1</origin>
@@ -159,7 +254,7 @@ by:   	MrFull57
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontMedium}</fontPath>
 			<systemdata>fullname</systemdata>
-			<color>706a78</color>
+			<color>${CorLetrasTitulos}</color>
 		</text>
 		<text name="system-nome-sombra">
 			<origin>0 1</origin>
@@ -175,22 +270,65 @@ by:   	MrFull57
 			<zIndex>5</zIndex>
 		</text>
 		<text name="system-game-count">
-			<origin>0 0</origin>
-			<pos>0.41 0.478</pos>
+			<origin>0.5 0.5</origin>
+			<pos>0.6 0.5</pos>
 			<fontSize>${systemGameCountFontSize}</fontSize> 
 			<fontPath>${fontMedium}</fontPath>
-			<systemdata>gamecount</systemdata>
+			<systemdata>gamecountGamesNoText</systemdata>
 			<letterCase>capitalize</letterCase>
-			<color>706a78</color>
+			<color>${CorLetrasGeral}</color>
 		</text>
-		<text name="system-metadata">
-			<origin>0 0</origin>
-			<pos>0.41 0.513</pos>
-			<size>0 0</size>
-			<fontSize>${systemMetadataFontSize}</fontSize>
+		<image name="jogos-totais-fundo-parte-preta">
+			<origin>0 0.5</origin>
+			<pos>0.41 0.5</pos>
+			<size>0.235 0.06</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>${CorLetrasGeral}</color>
+			<zIndex>6</zIndex>
+			<cornerRadius>0.015</cornerRadius>
+		</image>
+		<image name="jogos-totais-fundo-parte-branca">
+			<origin>0 0.5</origin>
+			<pos>0.5575 0.5</pos>
+			<size>0.085 0.05</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>${CorMiniFundo}</color>
+			<zIndex>7</zIndex>
+			<cornerRadius>0.013</cornerRadius>
+		</image>
+		<image name="jogos-totais-fundo-linha">
+			<origin>0 0.5</origin>
+			<pos>0.4085 0.5</pos>
+			<size>0.238 0.065</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>${CorMiniFundo}</color>
+			<zIndex>5</zIndex>
+			<cornerRadius>0.017</cornerRadius>
+		</image>
+		<image name="jogos-totais-fundo-sombra">
+			<origin>0 0.5</origin>
+			<pos>0.411 0.506</pos>
+			<size>0.239 0.068</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>00000033</color>
+			<zIndex>4</zIndex>
+			<cornerRadius>0.017</cornerRadius>
+		</image>
+		<text name="jogos-totais-indicacao">
+			<origin>0.5 0.5</origin>
+			<pos>0.485 0.5</pos>
+			<size>0.45 0.2</size>
+			<fontSize>0.026</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<horizontalAlignment>center</horizontalAlignment>
+			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontMedium}</fontPath>
-			<text>${systemManufacturer}  ${systemReleaseYear}</text>
-			<color>706a78</color>
+			<text>${langLabelTotalGames}</text>
+			<color>${CorMiniFundo}</color>
 		</text>
 		<image name="system-console">
 			<origin>0.5 0.5</origin>
@@ -205,6 +343,12 @@ by:   	MrFull57
 		<helpsystem name="help-direito">
 			<entries>a</entries>
 		</helpsystem>
+		<image name="help-direito-fundo">
+			<size>0.115 0.07</size>
+		</image>
+		<image name="help-direito-sombra">
+			<size>0.115 0.07</size>
+		</image>
 	</view>
 	<fontSize name="medium">
 			<variables>
@@ -219,11 +363,11 @@ by:   	MrFull57
 			<image name="background-art">
 				<origin>0 0</origin>
 				<pos>0 0</pos>
-				<size>1 0</size>
+				<cropSize>1 1</cropSize>
 				<imageType>fanart, screenshot</imageType>
 				<zIndex>2</zIndex>
-				<opacity>0.24</opacity>
 				<scrollFadeIn>true</scrollFadeIn>
+				<opacity>${FundoOpacidade}</opacity>
 			</image>
 			<carousel name="game-carousel">
 				<origin>0.5 0.5</origin>
@@ -236,7 +380,7 @@ by:   	MrFull57
 				<imageCornerRadius>0.008</imageCornerRadius>
 				<fastScrolling>true</fastScrolling>
 				<color>00000000</color>
-				<textColor>706a78</textColor>
+				<textColor>${CorLetrasTitulos}</textColor>
 				<textBackgroundColor>33333340</textBackgroundColor>
 				<fontSize>0.03</fontSize>
 				<itemScale>2</itemScale>
@@ -247,12 +391,11 @@ by:   	MrFull57
 				<fastScrolling>true</fastScrolling>
 				<imageInterpolation>nearest</imageInterpolation>
 			</carousel>
-			<image name="elementos-gamelist">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<size>1 1</size>
-				<path>./_inc/images/elementos-gamelist.png</path>
-				<zIndex>3</zIndex>
+			<image name="setinha-com-ou-sem-controle">
+				<path>./_inc/images/setinha-sem-controle.png</path>
+			</image>
+			<image name="setinha-com-ou-sem-controle-sombra">
+				<path>./_inc/images/setinha-sem-controle.png</path>
 			</image>
 			<image name="system-icon">
 				<path>${artworkFolder}</path>
@@ -261,6 +404,16 @@ by:   	MrFull57
 				<maxSize>0.11 0.5</maxSize>
 				<cornerRadius>0.008</cornerRadius>
 				<interpolation>linear</interpolation>
+			</image>
+			<image name="system-icon-sombrinha">
+				<path>${spacerImage}</path>
+				<origin>0.5 0.5</origin>
+				<pos>0.091 0.506</pos>
+				<tile>true</tile>
+				<size>0.11 0.2</size>
+				<cornerRadius>0.008</cornerRadius>
+				<color>00000033</color>
+				<zIndex>4</zIndex>
 			</image>
 			<text name="carousel-name">
 				<origin>0 1</origin>
@@ -272,7 +425,7 @@ by:   	MrFull57
 				<verticalAlignment>center</verticalAlignment>
 				<fontPath>${fontMedium}</fontPath>
 				<metadata>name</metadata>
-				<color>706a78</color>
+				<color>${CorLetrasTitulos}</color>
 			</text>
 			<text name="carousel-name-sombra">
 				<origin>0 1</origin>
@@ -296,7 +449,8 @@ by:   	MrFull57
 				<metadata>releasedate</metadata>
 				<horizontalAlignment>left</horizontalAlignment>
 				<verticalAlignment>top</verticalAlignment>
-				<color>706a78</color>
+				<color>${CorLetrasGeral}</color>
+				<format>%d/%m/%Y</format>
 			</datetime>
 			<text name="textlist-players">
 				<origin>0 0.5</origin>
@@ -308,7 +462,7 @@ by:   	MrFull57
 				<horizontalAlignment>left</horizontalAlignment>
 				<verticalAlignment>top</verticalAlignment>
 				<metadataElement>true</metadataElement>
-				<color>706a78</color>
+				<color>${CorLetrasGeral}</color>
 			</text>
 			<text name="textlist-developer">
 				<origin>0 0.5</origin>
@@ -320,7 +474,7 @@ by:   	MrFull57
 				<horizontalAlignment>left</horizontalAlignment>
 				<verticalAlignment>top</verticalAlignment>
 				<metadataElement>true</metadataElement>
-				<color>706a78</color>
+				<color>${CorLetrasGeral}</color>
 				<container>true</container>
 				<containerType>horizontal</containerType>
 			</text>
@@ -333,7 +487,7 @@ by:   	MrFull57
 				<metadata>lastplayed</metadata>
 				<horizontalAlignment>left</horizontalAlignment>
 				<verticalAlignment>top</verticalAlignment>
-				<color>706a78</color>
+				<color>${CorLetrasGeral}</color>
 			</datetime>
 			<video name="textlist-video">
 				<pos>0.835 0.705</pos>
@@ -342,9 +496,73 @@ by:   	MrFull57
 				<videoCornerRadius>0.01</videoCornerRadius>
 				<imageCornerRadius>0.01</imageCornerRadius>
 				<imageType>screenshot</imageType>
-				<delay>1.5</delay>
+				<delay>0</delay>
 				<pillarboxes>false</pillarboxes>
 			</video>
+			<image name="textlist-video-sombrinha">
+				<path>${spacerImage}</path>
+				<origin>0.5 0.5</origin>
+				<pos>0.838 0.711</pos>
+				<tile>true</tile>
+				<size>0.3 0.35</size>
+				<cornerRadius>0.008</cornerRadius>
+				<color>00000033</color>
+				<metadataElement>true</metadataElement>
+				<zIndex>4</zIndex>
+			</image>
+			<image name="metadados-fundo-parte-preta">
+				<origin>0 0.5</origin>
+				<pos>0.41 0.58</pos>
+				<size>0.221 0.22</size>
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${CorLetrasGeral}</color>
+				<zIndex>6</zIndex>
+				<cornerRadius>0.013</cornerRadius>
+				<metadataElement>true</metadataElement>
+			</image>
+			<image name="metadados-fundo-parte-branca">
+				<origin>0 0.5</origin>
+				<pos>0.443 0.581</pos>
+				<size>0.185 0.21</size>
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${CorMiniFundo}</color>
+				<zIndex>7</zIndex>
+				<cornerRadius>0.011</cornerRadius>
+				<metadataElement>true</metadataElement>
+			</image>
+			<image name="metadados-fundo-linha">
+				<origin>0 0.5</origin>
+				<pos>0.4085 0.58</pos>
+				<size>0.224 0.225</size>
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${CorMiniFundo}</color>
+				<zIndex>5</zIndex>
+				<cornerRadius>0.015</cornerRadius>
+				<metadataElement>true</metadataElement>
+			</image>
+			<image name="metadados-fundo-sombra">
+				<origin>0 0.5</origin>
+				<pos>0.4115 0.586</pos>
+				<size>0.224 0.225</size>
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>00000033</color>
+				<zIndex>4</zIndex>
+				<cornerRadius>0.015</cornerRadius>
+				<metadataElement>true</metadataElement>
+			</image>
+			<image name="metadados-icones">
+				<origin>0 0.5</origin>
+				<pos>0.414 0.581</pos>
+				<size>0.025 0</size>
+				<path>./_inc/images/icones-metadados.png</path>
+				<color>${CorMiniFundo}</color>
+				<zIndex>9</zIndex>
+				<metadataElement>true</metadataElement>
+			</image>
 			<badges name="carousel-badges">
 				<origin>0.5 0</origin>
 				<pos>0.83 0.485</pos>
@@ -363,7 +581,7 @@ by:   	MrFull57
 				<customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
 				<customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
 				<customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-				<badgeIconColor>706a78</badgeIconColor>
+				<badgeIconColor>${CorLetrasTitulos}</badgeIconColor>
 				<controllerSize>0.8</controllerSize>
 				<folderLinkSize>0.8</folderLinkSize>
 			</badges>
@@ -373,6 +591,12 @@ by:   	MrFull57
 			<helpsystem name="help-direito">
 				<entries>start,back,x,y,a</entries>
 			</helpsystem>
+			<image name="help-direito-fundo">
+				<size>0.455 0.07</size>
+			</image>
+			<image name="help-direito-sombra">
+				<size>0.455 0.07</size>
+			</image>
 		</view>
 		<fontSize name="medium">
 			<variables>
@@ -381,16 +605,136 @@ by:   	MrFull57
 			</variables>
 		</fontSize>
 	</variant>
-	
+
+	<!--///	Idiomas ///-->
+	<language name="en_US">
+		<variables>
+			<langLabelTotalGames>Total Games:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="ca_ES">
+		<variables>
+			<langLabelTotalGames>Total de Juegos:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="de_DE">
+		<variables>
+			<langLabelTotalGames>Gesamtspiele:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="es_ES">
+		<variables>
+			<langLabelTotalGames>Total de Juegos:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="fr_FR">
+		<variables>
+			<langLabelTotalGames>Jeux au Total:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="it_IT">
+		<variables>
+			<langLabelTotalGames>Giochi Totali:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="nl_NL">
+		<variables>
+			<langLabelTotalGames>Totaal Aantal Spellen:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="pl_PL">
+		<variables>
+			<langLabelTotalGames>Całkowita Liczba Gier:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="pt_BR">
+		<variables>
+			<langLabelTotalGames>Total de Jogos:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="ro_RO">
+		<variables>
+			<langLabelTotalGames>Totalno Kheliba:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="ru_RU">
+		<variables>
+			<langLabelTotalGames>всего игр:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="sv_SE">
+		<variables>
+			<langLabelTotalGames>Totalt Antal Spel:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="ja_JP">
+		<variables>
+			<langLabelTotalGames>全試合数:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="ko_KR">
+		<variables>
+			<langLabelTotalGames>총게임수:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="zh_CN">
+		<variables>
+			<langLabelTotalGames>总游戏数:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="zh_TW">
+		<variables>
+			<langLabelTotalGames>總遊戲數:</langLabelTotalGames>
+		</variables>
+	</language>
 
 	<!--///	Aspect Ratios ///-->
 	<aspectRatio name="16:9">
-        <view name="system">
-			<carousel name="system-carousel">
-				<itemSize>0.106 0.4</itemSize> 
-				<maxItemCount>5</maxItemCount>
-				<selectedItemMargins>0.11 0.11</selectedItemMargins>
-			</carousel>
+		<view name="system,gamelist">
+			<image name="reloginho">
+				<pos>1 0.04</pos>
+				<size>0.265 0</size>
+			</image>
+			<image name="reloginho-sombra">
+				<pos>1.003 0.046</pos>
+				<size>0.265 0</size>
+			</image>
+		</view>
+    </aspectRatio>
+	<aspectRatio name="16:10">
+		<view name="system,gamelist">
+			<image name="reloginho">
+				<pos>1 0.04</pos>
+				<size>0.265 0</size>
+			</image>
+			<image name="reloginho-sombra">
+				<pos>1.003 0.046</pos>
+				<size>0.265 0</size>
+			</image>
+		</view>
+    </aspectRatio>
+	<aspectRatio name="4:3">
+		<view name="system,gamelist">
+			<image name="reloginho">
+				<pos>1 0.04</pos>
+				<size>0.19866 0</size>
+			</image>
+			<image name="reloginho-sombra">
+				<pos>1.003 0.046</pos>
+				<size>0.19866 0</size>
+			</image>
+		</view>
+    </aspectRatio>
+	<aspectRatio name="21:9">
+		<view name="system,gamelist">
+			<image name="reloginho">
+				<pos>1 0.04</pos>
+				<size>0.34774 0</size>
+			</image>
+			<image name="reloginho-sombra">
+				<pos>1.003 0.046</pos>
+				<size>0.34774 0</size>
+			</image>
 		</view>
     </aspectRatio>
 	
