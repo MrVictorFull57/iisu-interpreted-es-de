@@ -1,0 +1,167 @@
+<theme>
+	<!-- Based on 2520x1080 -->
+	<view name="system,gamelist">
+		<image name="reloginho,reloginho-sombra">
+			<size>0.24007936 0</size><!-- 509 0 --><!-- 605 0 -->
+		</image>
+		<image name="reloginho">
+			<pos>1 0.03981481</pos><!-- 1920 43 -->
+		</image>
+		<image name="reloginho-sombra">
+			<pos>1.00198413 0.04537037</pos><!-- 2525 49 -->
+		</image>
+		<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-sombra">
+			<size>0.08761904 0</size>
+		</image>
+		<image name="setinha-com-ou-sem-controle">
+			<pos>0.05 0.5</pos>
+		</image>
+		<image name="setinha-com-ou-sem-controle-sombra">
+			<pos>0.053 0.506</pos>
+		</image>
+		<systemstatus name="system-status">
+			<pos>0.98492063 0.06111111</pos><!-- 2482 66 -->
+		</systemstatus>
+		<clock name="clock">
+			<pos>0.7975 0.06388889</pos><!-- 2107 69 -->
+		</clock>
+		<helpsystem name="help-esquerdo,help-direito">
+			<entrySpacing>0.00627451</entrySpacing><!-- 16 -->
+			<iconTextSpacing>0.0031746</iconTextSpacing><!-- 8 -->
+		</helpsystem>
+		<helpsystem name="help-esquerdo">
+			<pos>0.01904762 0.925</pos><!-- 48 999 -->
+		</helpsystem>
+		<image name="help-esquerdo-fundo">
+			<pos>0.00992063 0.97037037</pos><!-- 25 1048 -->
+		</image>
+		<image name="help-esquerdo-sombra">
+			<pos>0.01190476 0.97777778</pos><!-- 30 1056 -->
+		</image>
+		<helpsystem name="help-direito">
+			<pos>0.98095238 0.925</pos><!-- 2472 999 -->
+		</helpsystem>
+		<image name="help-direito-fundo">
+			<pos>0.99007937 0.97037037</pos><!-- 2495 1048 -->
+		</image>
+		<image name="help-direito-sombra">
+			<pos>0.99206349 0.97777778</pos><!-- 2500 1056 -->
+		</image>
+	</view>
+	<view name="system">
+		<carousel name="system-carousel">
+			<pos>0.1925 0.5</pos>
+			<itemSize>0.08076190 0.19</itemSize> 
+		</carousel>
+		<text name="system-nome">
+			<pos>0.3275 0.485</pos>
+		</text>
+		<text name="system-nome-sombra">
+			<pos>0.33 0.491</pos>
+		</text>
+		<image name="jogos-totais-fundo-parte-preta">
+			<pos>0.33038095 0.5</pos>
+			<size>0.17904761 0.06</size>
+			<cornerRadius>0.015</cornerRadius>
+		</image>
+		<image name="jogos-totais-fundo-parte-branca">
+			<pos>0.44276190 0.5</pos>
+			<size>0.06476190 0.05</size>
+			<cornerRadius>0.013</cornerRadius>
+		</image>
+		<image name="jogos-totais-fundo-linha">
+			<pos>0.32923809 0.5</pos>
+			<size>0.18133333 0.065</size>
+			<cornerRadius>0.017</cornerRadius>
+		</image>
+		<image name="jogos-totais-fundo-sombra">
+			<pos>0.33114285 0.506</pos>
+			<size>0.18209523239 0.068</size>
+			<cornerRadius>0.017</cornerRadius>
+		</image>
+		<text name="system-game-count">
+			<pos>0.475 0.5</pos>
+		</text>
+		<text name="jogos-totais-indicacao">
+			<pos>0.39 0.5</pos>
+		</text>
+		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+			<size>0.06190476 0.06944444</size><!-- 156 75 -->
+		</image>
+		<image name="help-direito-fundo,help-direito-sombra">
+			<size>0.07428572 0.06944444</size><!-- 166 75 -->
+		</image>
+	</view>
+	<view name="gamelist">
+		<carousel name="game-carousel">
+			<pos>0.1925 0.5</pos>
+			<itemSize>0.08076190 0.19</itemSize> 
+		</carousel>
+		<text name="carousel-name">
+			<pos>0.3275 0.485</pos>
+		</text>
+		<text name="carousel-name-sombra">
+			<pos>0.33 0.491</pos>
+		</text>
+		<image name="system-icon">
+			<pos>0.075 0.5</pos>
+			<maxSize>0.08380952 0.2</maxSize>
+			<cornerRadius>0.008</cornerRadius>
+		</image>
+		<image name="system-icon-sombrinha">
+			<pos>0.0775 0.506</pos>
+			<size>0.08380952 0.2</size>
+			<cornerRadius>0.008</cornerRadius>
+		</image>
+		<video name="textlist-video">
+			<pos>0.8725 0.705</pos>
+			<cropSize>0.22857142 0.35</cropSize>
+		</video>
+		<image name="textlist-video-sombrinha">
+			<pos>0.8755 0.711</pos>
+			<size>0.22857142 0.35</size>
+		</image>
+		<datetime name="textlist-releasedate">
+			<pos>0.365 0.57</pos>
+		</datetime>
+		<text name="textlist-players">
+			<pos>0.365 0.615</pos>
+		</text>
+		<text name="textlist-developer">
+			<pos>0.365 0.663</pos>
+			<size>0.13142857 0.16</size>
+		</text>
+		<datetime name="textlist-lastplayed">
+			<pos>0.365 0.715</pos>
+		</datetime>
+		<image name="metadados-fundo-parte-preta">
+			<pos>0.3335 0.58</pos>
+			<size>0.16838095 0.22</size>
+		</image>
+		<image name="metadados-fundo-parte-branca">
+			<pos>0.35885 0.581</pos>
+			<size>0.14095238 0.21</size>
+		</image>
+		<image name="metadados-fundo-linha">
+			<pos>0.3325 0.58</pos>
+			<size>0.17066667 0.225</size>
+		</image>
+		<image name="metadados-fundo-sombra">
+			<pos>0.335 0.586</pos>
+			<size>0.17066667 0.225</size>
+		</image>
+		<image name="metadados-icones">
+			<pos>0.337 0.581</pos>
+			<size>0.01904761 0</size>
+		</image>
+		<badges name="carousel-badges">
+			<pos>0.87 0.485</pos>
+		</badges>
+		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+			<size>0.06190476 0.06944444</size><!-- 156 75 -->
+		</image>
+		<image name="help-direito-fundo,help-direito-sombra">
+			<size>0.33333333 0.06944444</size><!-- 840 75 -->
+		</image>
+	</view>
+</theme>
