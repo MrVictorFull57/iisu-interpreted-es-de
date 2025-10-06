@@ -226,7 +226,7 @@ by:   	MrFull57
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontMedium}</fontPath>
 			<systemdata>fullname</systemdata>
-			<letterCase>capitalize</letterCase>
+			<letterCase>none</letterCase>
 		</text>
 		<text name="system-nome">
 			<color>${CorLetrasTitulos}</color>
