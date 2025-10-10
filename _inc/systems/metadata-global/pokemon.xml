@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Pokémon</systemName>
+      <systemDescription>View and play the Pokémon Games in your collection.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Various</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>3F549D</systemColor>
+      <systemColorPalette1>FED01B</systemColorPalette1>
+      <systemColorPalette2>BA2318</systemColorPalette2>
+      <systemColorPalette3>0A2A8D</systemColorPalette3>
+      <systemColorPalette4>007544</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

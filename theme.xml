@@ -40,6 +40,17 @@ by:   	MrFull57
 			<CorMiniFundo>e0e0e0</CorMiniFundo>
 		</variables>
     </colorScheme>
+	<colorScheme name="blue">
+		<variables>
+			<CorFundoTopo>1c2c68</CorFundoTopo>
+			<CorFundoRodape>121258</CorFundoRodape>
+			<CorFundoBolinhas>233688</CorFundoBolinhas>
+			<CorLetrasGeral>5c5a91</CorLetrasGeral>
+			<CorLetrasTitulos>f0eff1</CorLetrasTitulos>
+			<FundoOpacidade>0.15</FundoOpacidade>
+			<CorMiniFundo>f0eff1</CorMiniFundo>
+		</variables>
+    </colorScheme>
 
 	<!--///	Todas as Views ///-->
 	<view name="system,gamelist">
@@ -141,8 +152,8 @@ by:   	MrFull57
 			<textColor>${CorLetrasGeral}</textColor>
 			<originDimmed>0.5 0</originDimmed>
 			<posDimmed>0.5 0.94</posDimmed>
-			<textColorDimmed>3e3846</textColorDimmed>
-			<iconColorDimmed>3e3846</iconColorDimmed>
+			<textColorDimmed>${CorLetrasTitulos}</textColorDimmed>
+			<iconColorDimmed>${CorLetrasTitulos}</iconColorDimmed>
 			<opacityDimmed>1.0</opacityDimmed>
 			<scope>menu</scope>
 			<entries>start,a,b</entries>
@@ -155,12 +166,14 @@ by:   	MrFull57
 			<customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
 			<customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
 			<textRelativeScale>0.625</textRelativeScale>
+			<scope>view</scope>
 		</systemstatus>
 		<clock name="clock">
 			<fontPath>${fontMedium}</fontPath>
 			<fontSize>0.037</fontSize>
 			<color>${CorLetrasTitulos}</color>
 			<horizontalAlignment>center</horizontalAlignment>
+			<scope>view</scope>
 		</clock>
 		<!--<clock name="data-de-hoje">
 			<fontPath>${fontMedium}</fontPath>
@@ -217,7 +230,7 @@ by:   	MrFull57
 		<image name="setinha-com-ou-sem-controle-sombra">
 			<path>./_inc/images/setinha-com-controle.png</path>
 		</image>
-		<text name="system-nome,system-nome-sombra">
+		<text name="system-nome,system-nome-sombra,auto-nome,auto-nome-sombra,custom-nome,custom-nome-sombra">
 			<origin>0 1</origin>
 			<size>0.45 0.2</size>
 			<fontSize>0.065</fontSize>
@@ -225,13 +238,37 @@ by:   	MrFull57
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontMedium}</fontPath>
-			<systemdata>fullname</systemdata>
-			<letterCase>none</letterCase>
+		</text>
+		<text name="system-nome,system-nome-sombra">
+			<text>${system.fullName.noCollections}</text>
+            <letterCase>none</letterCase>
 		</text>
 		<text name="system-nome">
 			<color>${CorLetrasTitulos}</color>
 		</text>
 		<text name="system-nome-sombra">
+			<color>00000033</color>
+			<zIndex>5</zIndex>
+		</text>
+		<text name="auto-nome,auto-nome-sombra">
+			<text>${system.fullName.autoCollections}</text>
+            <letterCase>capitalize</letterCase>
+		</text>
+		<text name="auto-nome">
+			<color>${CorLetrasTitulos}</color>
+		</text>
+		<text name="auto-nome-sombra">
+			<color>00000033</color>
+			<zIndex>5</zIndex>
+		</text>
+		<text name="custom-nome,custom-nome-sombra">
+			<text>${system.fullName.customCollections}</text>
+            <letterCase>none</letterCase>
+		</text>
+		<text name="custom-nome">
+			<color>${CorLetrasTitulos}</color>
+		</text>
+		<text name="custom-nome-sombra">
 			<color>00000033</color>
 			<zIndex>5</zIndex>
 		</text>
@@ -304,202 +341,239 @@ by:   	MrFull57
 	</fontSize>
    
 	<!--///	Gamelist View: Carousel	///-->
-	<variant name="gamelist-carousel">
-		<view name="gamelist">
-			<image name="background-art">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<cropSize>1 1</cropSize>
-				<imageType>fanart, screenshot</imageType>
-				<zIndex>2</zIndex>
-				<scrollFadeIn>true</scrollFadeIn>
-				<opacity>${FundoOpacidade}</opacity>
+	<view name="gamelist">
+		<image name="background-art">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<cropSize>1 1</cropSize>
+			<imageType>fanart, screenshot</imageType>
+			<zIndex>2</zIndex>
+			<scrollFadeIn>true</scrollFadeIn>
+			<opacity>${FundoOpacidade}</opacity>
+		</image>
+		<carousel name="game-carousel">
+			<origin>0.5 0.5</origin>
+			<size>0.7 1</size>
+			<type>vertical</type>
+			<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+			<unfocusedItemDimming>0.9</unfocusedItemDimming>
+			<imageType>cover</imageType>
+			<imageCornerRadius>0.008</imageCornerRadius>
+			<defaultImage>${fallbackGame}</defaultImage>
+			<fastScrolling>true</fastScrolling>
+			<color>00000000</color>
+			<textColor>${CorLetrasTitulos}</textColor>
+			<textBackgroundColor>33333340</textBackgroundColor>
+			<fontSize>0.03</fontSize>
+			<itemScale>2</itemScale>
+			<maxItemCount>5</maxItemCount>
+			<selectedItemMargins>0.11 0.11</selectedItemMargins>
+			<selectedItemOffset>0.09 0</selectedItemOffset>
+			<fastScrolling>true</fastScrolling>
+			<imageInterpolation>nearest</imageInterpolation>
+		</carousel>
+		<image name="setinha-com-ou-sem-controle">
+			<path>./_inc/images/setinha-sem-controle.png</path>
+		</image>
+		<image name="setinha-com-ou-sem-controle-sombra">
+			<path>./_inc/images/setinha-sem-controle.png</path>
+		</image>
+		<image name="system-icon">
+			<path>${artworkFolder}</path>
+			<default>${fallbackSystem}</default>
+			<origin>0.5 0.5</origin>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="system-icon-sombrinha">
+			<path>${spacerImage}</path>
+			<origin>0.5 0.5</origin>
+			<tile>true</tile>
+			<color>00000033</color>
+			<zIndex>4</zIndex>
+		</image>
+		<text name="carousel-name,carousel-name-sombra">
+			<origin>0 1</origin>
+			<size>0.45 0.2</size>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>center</verticalAlignment>
+			<fontPath>${fontMedium}</fontPath>
+			<metadata>name</metadata>
+			<color>${CorLetrasTitulos}</color>
+		</text>
+		<text name="carousel-name">
+			<color>${CorLetrasTitulos}</color>
+		</text>
+		<text name="carousel-name-sombra">
+			<color>00000033</color>
+			<zIndex>5</zIndex>
+		</text>
+		<datetime name="textlist-releasedate">
+			<origin>0 0.5</origin>
+			<size>0.45 0.16</size>
+			<fontSize>0.026</fontSize>
+			<fontPath>${fontMedium}</fontPath>
+			<metadata>releasedate</metadata>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>top</verticalAlignment>
+			<color>${CorLetrasGeral}</color>
+		</datetime>
+		<text name="textlist-players">
+			<origin>0 0.5</origin>
+			<size>0.45 0.16</size>
+			<fontSize>0.026</fontSize>
+			<fontPath>${fontMedium}</fontPath>
+			<metadata>players</metadata>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>top</verticalAlignment>
+			<metadataElement>true</metadataElement>
+			<color>${CorLetrasGeral}</color>
+		</text>
+		<text name="textlist-developer">
+			<origin>0 0.5</origin>
+			<fontSize>0.026</fontSize>
+			<fontPath>${fontMedium}</fontPath>
+			<metadata>developer</metadata>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>top</verticalAlignment>
+			<metadataElement>true</metadataElement>
+			<color>${CorLetrasGeral}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+		</text>
+		<datetime name="textlist-lastplayed">
+			<origin>0 0.5</origin>
+			<size>0.45 0.16</size>
+			<fontSize>0.026</fontSize>
+			<fontPath>${fontMedium}</fontPath>
+			<metadata>lastplayed</metadata>
+			<horizontalAlignment>left</horizontalAlignment>
+			<verticalAlignment>top</verticalAlignment>
+			<color>${CorLetrasGeral}</color>
+		</datetime>
+		<video name="textlist-video">
+			<origin>0.5 0.5</origin>
+			<videoCornerRadius>0.01</videoCornerRadius>
+			<imageCornerRadius>0.01</imageCornerRadius>
+			<imageType>screenshot</imageType>
+			<delay>0</delay>
+			<pillarboxes>false</pillarboxes>
+		</video>
+		<image name="textlist-video-sombrinha">
+			<path>${spacerImage}</path>
+			<origin>0.5 0.5</origin>
+			<tile>true</tile>
+			<cornerRadius>0.008</cornerRadius>
+			<color>00000033</color>
+			<metadataElement>true</metadataElement>
+			<zIndex>4</zIndex>
+		</image>
+		<image name="metadados-fundo-parte-preta,metadados-fundo-parte-branca,metadados-fundo-linha,metadados-fundo-sombra">
+			<origin>0 0.5</origin>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<metadataElement>true</metadataElement>
+		</image>
+		<image name="metadados-fundo-parte-preta">
+			<color>${CorLetrasGeral}</color>
+			<zIndex>6</zIndex>
+			<cornerRadius>0.013</cornerRadius>
+		</image>
+		<image name="metadados-fundo-parte-branca">
+			<color>${CorMiniFundo}</color>
+			<zIndex>7</zIndex>
+			<cornerRadius>0.011</cornerRadius>
+		</image>
+		<image name="metadados-fundo-linha">
+			<color>${CorMiniFundo}</color>
+			<zIndex>5</zIndex>
+			<cornerRadius>0.015</cornerRadius>
+		</image>
+		<image name="metadados-fundo-sombra">
+			<color>00000033</color>
+			<zIndex>4</zIndex>
+			<cornerRadius>0.015</cornerRadius>
+		</image>
+		<image name="metadados-icones">
+			<origin>0 0.5</origin>
+			<path>./_inc/images/icones-metadados.png</path>
+			<color>${CorMiniFundo}</color>
+			<zIndex>9</zIndex>
+			<metadataElement>true</metadataElement>
+		</image>
+		<badges name="carousel-badges">
+			<origin>0.5 0</origin>
+			<size>1 0.026</size>
+			<horizontalAlignment>center</horizontalAlignment>
+			<itemMargin>0.002 -1</itemMargin>
+			<lines>1</lines>
+			<itemsPerLine>9</itemsPerLine>
+			<slots>all</slots>
+			<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+			<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+			<customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+			<customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+			<customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+			<customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+			<customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+			<customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+			<customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+			<badgeIconColor>${CorLetrasTitulos}</badgeIconColor>
+			<controllerSize>0.8</controllerSize>
+			<folderLinkSize>0.8</folderLinkSize>
+		</badges>
+		<helpsystem name="help-esquerdo">
+			<entries>b</entries>
+		</helpsystem>
+		<helpsystem name="help-direito">
+			<entries>start,back,x,y,a</entries>
+		</helpsystem>
+	</view>
+	<fontSize name="medium">
+		<variables>
+			<carouselGameNameFontSize>0.065</carouselGameNameFontSize>
+			<carouselSystemNameFontSize>0.026</carouselSystemNameFontSize>
+		</variables>
+	</fontSize>
+
+	<variant name="gamelist-carousel-default">
+		
+	</variant>
+
+	<variant name="gamelist-carousel-noicons">
+		<view name="system">
+			<image name="system-console">
+				<visible>false</visible>
 			</image>
-			<carousel name="game-carousel">
-				<origin>0.5 0.5</origin>
-				<size>0.7 1</size>
-				<type>vertical</type>
-				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
-				<unfocusedItemDimming>0.9</unfocusedItemDimming>
-				<imageType>cover</imageType>
-				<imageCornerRadius>0.008</imageCornerRadius>
-				<defaultImage>${fallbackGame}</defaultImage>
-				<fastScrolling>true</fastScrolling>
-				<color>00000000</color>
-				<textColor>${CorLetrasTitulos}</textColor>
-				<textBackgroundColor>33333340</textBackgroundColor>
-				<fontSize>0.03</fontSize>
-				<itemScale>2</itemScale>
-				<maxItemCount>5</maxItemCount>
-				<selectedItemMargins>0.11 0.11</selectedItemMargins>
-				<selectedItemOffset>0.09 0</selectedItemOffset>
-				<fastScrolling>true</fastScrolling>
-				<imageInterpolation>nearest</imageInterpolation>
-			</carousel>
-			<image name="setinha-com-ou-sem-controle">
-				<path>./_inc/images/setinha-sem-controle.png</path>
-			</image>
-			<image name="setinha-com-ou-sem-controle-sombra">
-				<path>./_inc/images/setinha-sem-controle.png</path>
-			</image>
-			<image name="system-icon">
-				<path>${artworkFolder}</path>
-				<default>${fallbackSystem}</default>
-				<origin>0.5 0.5</origin>
-				<interpolation>linear</interpolation>
-			</image>
-			<image name="system-icon-sombrinha">
-				<path>${spacerImage}</path>
-				<origin>0.5 0.5</origin>
-				<tile>true</tile>
-				<color>00000033</color>
-				<zIndex>4</zIndex>
-			</image>
-			<text name="carousel-name,carousel-name-sombra">
-				<origin>0 1</origin>
-				<size>0.45 0.2</size>
-				<fontSize>0.065</fontSize>
-				<lineSpacing>1.1</lineSpacing>
-				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>center</verticalAlignment>
-				<fontPath>${fontMedium}</fontPath>
-				<metadata>name</metadata>
-				<color>${CorLetrasTitulos}</color>
-			</text>
-			<text name="carousel-name">
-				<color>${CorLetrasTitulos}</color>
-			</text>
-			<text name="carousel-name-sombra">
-				<color>00000033</color>
-				<zIndex>5</zIndex>
-			</text>
-			<datetime name="textlist-releasedate">
-				<origin>0 0.5</origin>
-				<size>0.45 0.16</size>
-				<fontSize>0.026</fontSize>
-				<fontPath>${fontMedium}</fontPath>
-				<metadata>releasedate</metadata>
-				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>top</verticalAlignment>
-				<color>${CorLetrasGeral}</color>
-			</datetime>
-			<text name="textlist-players">
-				<origin>0 0.5</origin>
-				<size>0.45 0.16</size>
-				<fontSize>0.026</fontSize>
-				<fontPath>${fontMedium}</fontPath>
-				<metadata>players</metadata>
-				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>top</verticalAlignment>
-				<metadataElement>true</metadataElement>
-				<color>${CorLetrasGeral}</color>
-			</text>
-			<text name="textlist-developer">
-				<origin>0 0.5</origin>
-				<fontSize>0.026</fontSize>
-				<fontPath>${fontMedium}</fontPath>
-				<metadata>developer</metadata>
-				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>top</verticalAlignment>
-				<metadataElement>true</metadataElement>
-				<color>${CorLetrasGeral}</color>
-				<container>true</container>
-				<containerType>horizontal</containerType>
-			</text>
-			<datetime name="textlist-lastplayed">
-				<origin>0 0.5</origin>
-				<size>0.45 0.16</size>
-				<fontSize>0.026</fontSize>
-				<fontPath>${fontMedium}</fontPath>
-				<metadata>lastplayed</metadata>
-				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>top</verticalAlignment>
-				<color>${CorLetrasGeral}</color>
-			</datetime>
-			<video name="textlist-video">
-				<origin>0.5 0.5</origin>
-				<videoCornerRadius>0.01</videoCornerRadius>
-				<imageCornerRadius>0.01</imageCornerRadius>
-				<imageType>screenshot</imageType>
-				<delay>0</delay>
-				<pillarboxes>false</pillarboxes>
-			</video>
-			<image name="textlist-video-sombrinha">
-				<path>${spacerImage}</path>
-				<origin>0.5 0.5</origin>
-				<tile>true</tile>
-				<cornerRadius>0.008</cornerRadius>
-				<color>00000033</color>
-				<metadataElement>true</metadataElement>
-				<zIndex>4</zIndex>
-			</image>
-			<image name="metadados-fundo-parte-preta,metadados-fundo-parte-branca,metadados-fundo-linha,metadados-fundo-sombra">
-				<origin>0 0.5</origin>
-				<path>${spacerImage}</path>
-				<tile>true</tile>
-				<metadataElement>true</metadataElement>
-			</image>
-			<image name="metadados-fundo-parte-preta">
-				<color>${CorLetrasGeral}</color>
-				<zIndex>6</zIndex>
-				<cornerRadius>0.013</cornerRadius>
-			</image>
-			<image name="metadados-fundo-parte-branca">
-				<color>${CorMiniFundo}</color>
-				<zIndex>7</zIndex>
-				<cornerRadius>0.011</cornerRadius>
-			</image>
-			<image name="metadados-fundo-linha">
-				<color>${CorMiniFundo}</color>
-				<zIndex>5</zIndex>
-				<cornerRadius>0.015</cornerRadius>
-			</image>
-			<image name="metadados-fundo-sombra">
-				<color>00000033</color>
-				<zIndex>4</zIndex>
-				<cornerRadius>0.015</cornerRadius>
-			</image>
-			<image name="metadados-icones">
-				<origin>0 0.5</origin>
-				<path>./_inc/images/icones-metadados.png</path>
-				<color>${CorMiniFundo}</color>
-				<zIndex>9</zIndex>
-				<metadataElement>true</metadataElement>
-			</image>
-			<badges name="carousel-badges">
-				<origin>0.5 0</origin>
-				<size>1 0.026</size>
-				<horizontalAlignment>center</horizontalAlignment>
-				<itemMargin>0.002 -1</itemMargin>
-				<lines>1</lines>
-				<itemsPerLine>9</itemsPerLine>
-				<slots>all</slots>
-				<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-				<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-				<customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-				<customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-				<customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-				<customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-				<customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-				<customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-				<customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-				<badgeIconColor>${CorLetrasTitulos}</badgeIconColor>
-				<controllerSize>0.8</controllerSize>
-				<folderLinkSize>0.8</folderLinkSize>
-			</badges>
-			<helpsystem name="help-esquerdo">
-				<entries>b</entries>
-			</helpsystem>
-			<helpsystem name="help-direito">
-				<entries>start,back,x,y,a</entries>
-			</helpsystem>
 		</view>
-		<fontSize name="medium">
-			<variables>
-				<carouselGameNameFontSize>0.065</carouselGameNameFontSize>
-				<carouselSystemNameFontSize>0.026</carouselSystemNameFontSize>
-			</variables>
-		</fontSize>
+	</variant>
+	
+	<variant name="gamelist-carousel-noclock">
+		<view name="system,gamelist">
+			<image name="reloginho,reloginho-sombra">
+				<path>./_inc/images/sem-reloginho.png</path>
+			</image>
+			<clock name="clock">
+				<scope>none</scope>
+			</clock>
+		</view>
+	</variant>
+	
+	<variant name="gamelist-carousel-neither">	
+		<view name="system,gamelist">
+			<image name="reloginho,reloginho-sombra">
+				<path>./_inc/images/sem-reloginho.png</path>
+			</image>
+			<clock name="clock">
+				<scope>none</scope>
+			</clock>
+		</view>
+		<view name="system">
+			<image name="system-console">
+				<visible>false</visible>
+			</image>
+		</view>	
 	</variant>
 
 	<!--///	Idiomas ///-->

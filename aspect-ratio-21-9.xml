@@ -59,6 +59,18 @@
 		<text name="system-nome-sombra">
 			<pos>0.33 0.491</pos>
 		</text>
+		<text name="auto-nome">
+			<pos>0.3275 0.485</pos>
+		</text>
+		<text name="auto-nome-sombra">
+			<pos>0.33 0.491</pos>
+		</text>
+		<text name="custom-nome">
+			<pos>0.3275 0.485</pos>
+		</text>
+		<text name="custom-nome-sombra">
+			<pos>0.33 0.491</pos>
+		</text>
 		<image name="jogos-totais-fundo-parte-preta">
 			<pos>0.33038095 0.5</pos>
 			<size>0.17904761 0.06</size>
