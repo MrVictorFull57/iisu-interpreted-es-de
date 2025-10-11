@@ -360,6 +360,7 @@ by:   	MrFull57
 			<imageType>cover</imageType>
 			<imageCornerRadius>0.008</imageCornerRadius>
 			<defaultImage>${fallbackGame}</defaultImage>
+			<defaultFolderImage>${fallbackSystem}</defaultFolderImage>
 			<fastScrolling>true</fastScrolling>
 			<color>00000000</color>
 			<textColor>${CorLetrasTitulos}</textColor>
