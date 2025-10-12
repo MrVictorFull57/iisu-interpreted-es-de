@@ -28,22 +28,18 @@
 		<helpsystem name="help-esquerdo,help-direito">
 			<entrySpacing>0.00833333</entrySpacing><!-- 16 -->
 			<iconTextSpacing>0.00416667</iconTextSpacing><!-- 8 -->
+			<backgroundHorizontalPadding>0.0125 0.0125</backgroundHorizontalPadding>
+			<backgroundCornerRadius>0.009</backgroundCornerRadius>
 		</helpsystem>
 		<helpsystem name="help-esquerdo">
 			<pos>0.025 0.925</pos><!-- 48 999 -->
 		</helpsystem>
-		<image name="help-esquerdo-fundo">
-			<pos>0.01302083 0.97037037</pos><!-- 25 1048 -->
-		</image>
 		<image name="help-esquerdo-sombra">
 			<pos>0.015625 0.97777778</pos><!-- 30 1056 -->
 		</image>
 		<helpsystem name="help-direito">
 			<pos>0.975 0.925</pos><!-- 1872 999 -->
 		</helpsystem>
-		<image name="help-direito-fundo">
-			<pos>0.987 0.97037037</pos><!-- 1895 1048 -->
-		</image>
 		<image name="help-direito-sombra">
 			<pos>0.98958333 0.97777778</pos><!-- 1900 1056 -->
 		</image>
@@ -97,10 +93,10 @@
 		<text name="jogos-totais-indicacao">
 			<pos>0.485 0.5</pos>
 		</text>
-		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+		<image name="help-esquerdo-sombra">
 			<size>0.08125 0.06944444</size><!-- 156 75 -->
 		</image>
-		<image name="help-direito-fundo,help-direito-sombra">
+		<image name="help-direito-sombra">
 			<size>0.0975 0.06944444</size><!-- 166 75 -->
 		</image>
 	</view>
@@ -109,10 +105,10 @@
 			<pos>0.235 0.5</pos>
 			<itemSize>0.106 0.19</itemSize> 
 		</carousel>
-		<text name="carousel-name">
+		<text name="carousel-name,carousel-name-custom">
 			<pos>0.4075 0.485</pos>
 		</text>
-		<text name="carousel-name-sombra">
+		<text name="carousel-name-sombra,carousel-name-custom-sombra">
 			<pos>0.4105 0.491</pos>
 		</text>
 		<image name="system-icon">
@@ -169,11 +165,15 @@
 		<badges name="carousel-badges">
 			<pos>0.83 0.485</pos>
 		</badges>
-		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+		<image name="help-esquerdo-sombra">
 			<size>0.08125 0.06944444</size><!-- 156 75 -->
 		</image>
-		<image name="help-direito-fundo,help-direito-sombra">
+		<image name="help-direito-sombra">
 			<size>0.4375 0.06944444</size><!-- 840 75 -->
 		</image>
+		<text name="custom-titulo">
+			<pos>0.0125 0.625</pos>
+			<size>0.1525 0.031</size>
+		</text>
 	</view>
 </theme>

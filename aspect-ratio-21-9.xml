@@ -28,22 +28,18 @@
 		<helpsystem name="help-esquerdo,help-direito">
 			<entrySpacing>0.00627451</entrySpacing><!-- 16 -->
 			<iconTextSpacing>0.0031746</iconTextSpacing><!-- 8 -->
+			<backgroundHorizontalPadding>0.00952380 0.00952380</backgroundHorizontalPadding>
+			<backgroundCornerRadius>0.00685714</backgroundCornerRadius>
 		</helpsystem>
 		<helpsystem name="help-esquerdo">
 			<pos>0.01904762 0.925</pos><!-- 48 999 -->
 		</helpsystem>
-		<image name="help-esquerdo-fundo">
-			<pos>0.00992063 0.97037037</pos><!-- 25 1048 -->
-		</image>
 		<image name="help-esquerdo-sombra">
 			<pos>0.01190476 0.97777778</pos><!-- 30 1056 -->
 		</image>
 		<helpsystem name="help-direito">
 			<pos>0.98095238 0.925</pos><!-- 2472 999 -->
 		</helpsystem>
-		<image name="help-direito-fundo">
-			<pos>0.99007937 0.97037037</pos><!-- 2495 1048 -->
-		</image>
 		<image name="help-direito-sombra">
 			<pos>0.99206349 0.97777778</pos><!-- 2500 1056 -->
 		</image>
@@ -97,10 +93,10 @@
 		<text name="jogos-totais-indicacao">
 			<pos>0.39 0.5</pos>
 		</text>
-		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+		<image name="help-esquerdo-sombra">
 			<size>0.06190476 0.06944444</size><!-- 156 75 -->
 		</image>
-		<image name="help-direito-fundo,help-direito-sombra">
+		<image name="help-direito-sombra">
 			<size>0.07428572 0.06944444</size><!-- 166 75 -->
 		</image>
 	</view>
@@ -169,11 +165,15 @@
 		<badges name="carousel-badges">
 			<pos>0.87 0.485</pos>
 		</badges>
-		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+		<image name="help-esquerdo-sombra">
 			<size>0.06190476 0.06944444</size><!-- 156 75 -->
 		</image>
-		<image name="help-direito-fundo,help-direito-sombra">
+		<image name="help-direito-sombra">
 			<size>0.33333333 0.06944444</size><!-- 840 75 -->
 		</image>
+		<text name="custom-titulo">
+			<pos>0.0125 0.625</pos>
+			<size>0.125 0.031</size>
+		</text>
 	</view>
 </theme>

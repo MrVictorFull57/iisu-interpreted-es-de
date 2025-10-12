@@ -28,22 +28,18 @@
 		<helpsystem name="help-esquerdo,help-direito">
 			<entrySpacing>0.01111111</entrySpacing><!-- 16 -->
 			<iconTextSpacing>0.00555556</iconTextSpacing><!-- 8 -->
+			<backgroundHorizontalPadding>0.01666667 0.01666667</backgroundHorizontalPadding>
+			<backgroundCornerRadius>0.012</backgroundCornerRadius>
 		</helpsystem>
 		<helpsystem name="help-esquerdo">
 			<pos>0.03333333 0.925</pos><!-- 48 999 -->
 		</helpsystem>
-		<image name="help-esquerdo-fundo">
-			<pos>0.01736111 0.97037037</pos><!-- 25 1048 -->
-		</image>
 		<image name="help-esquerdo-sombra">
 			<pos>0.02083333 0.97777778</pos><!-- 30 1056 -->
 		</image>
 		<helpsystem name="help-direito">
 			<pos>0.96666667 0.925</pos><!-- 1392 999 -->
 		</helpsystem>
-		<image name="help-direito-fundo">
-			<pos>0.98263889 0.97037037</pos><!-- 1415 1048 -->
-		</image>
 		<image name="help-direito-sombra">
 			<pos>0.98611111 0.97777778</pos><!-- 1420 1056 -->
 		</image>
@@ -97,10 +93,10 @@
 		<text name="jogos-totais-indicacao">
 			<pos>0.6275 0.5</pos>
 		</text>
-		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+		<image name="help-esquerdo-sombra">
 			<size>0.10833333 0.06944444</size><!-- 156 75 -->
 		</image>
-		<image name="help-direito-fundo,help-direito-sombra">
+		<image name="help-direito-sombra">
 			<size>0.1300000075 0.06944444</size><!-- 166 75 -->
 		</image>
 		<image name="system-console">
@@ -164,10 +160,10 @@
 		<badges name="carousel-badges">
 			<pos>0.675 0.705</pos>
 		</badges>
-		<image name="help-esquerdo-fundo,help-esquerdo-sombra">
+		<image name="help-esquerdo-sombra">
 			<size>0.10833333 0.06944444</size><!-- 156 75 -->
 		</image>
-		<image name="help-direito-fundo,help-direito-sombra">
+		<image name="help-direito-sombra">
 			<size>0.58333333 0.06944444</size><!-- 840 75 -->
 		</image>
 		<video name="textlist-video">
@@ -176,5 +172,9 @@
 		<image name="textlist-video-sombrinha">
 			<visible>false</visible>
 		</image>
+		<text name="custom-titulo">
+			<pos>0.0225 0.625</pos>
+			<size>0.1525 0.031</size>
+		</text>
 	</view>
 </theme>

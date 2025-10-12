@@ -27,6 +27,8 @@ by:   	MrFull57
 			<CorLetrasTitulos>706a78</CorLetrasTitulos>
 			<FundoOpacidade>0.24</FundoOpacidade>
 			<CorMiniFundo>ffffff</CorMiniFundo>
+			<CorHelpLetras>ffffff</CorHelpLetras>
+			<CorHelpFundo>7f7888</CorHelpFundo>
 		</variables>
     </colorScheme>
 	<colorScheme name="dark">
@@ -38,6 +40,8 @@ by:   	MrFull57
 			<CorLetrasTitulos>e0e0e0</CorLetrasTitulos>
 			<FundoOpacidade>0.15</FundoOpacidade>
 			<CorMiniFundo>e0e0e0</CorMiniFundo>
+			<CorHelpLetras>7f7888</CorHelpLetras>
+			<CorHelpFundo>e0e0e0</CorHelpFundo>
 		</variables>
     </colorScheme>
 	<colorScheme name="blue">
@@ -49,6 +53,8 @@ by:   	MrFull57
 			<CorLetrasTitulos>f0eff1</CorLetrasTitulos>
 			<FundoOpacidade>0.15</FundoOpacidade>
 			<CorMiniFundo>f0eff1</CorMiniFundo>
+			<CorHelpLetras>5c5a91</CorHelpLetras>
+			<CorHelpFundo>f0eff1</CorHelpFundo>
 		</variables>
     </colorScheme>
 
@@ -91,46 +97,28 @@ by:   	MrFull57
 			<color>00000033</color>
 			<interpolation>linear</interpolation>
 		</image>
-		<helpsystem name="help-esquerdo">
-			<origin>0 0</origin>
+		<helpsystem name="help-esquerdo,help-direito">
 			<fontSize>0.026</fontSize>
 			<fontPath>${fontMedium}</fontPath>
 			<letterCase>capitalize</letterCase>
-			<iconColor>${CorLetrasGeral}</iconColor>
-			<textColor>${CorLetrasGeral}</textColor>
+			<iconColor>${CorHelpLetras}</iconColor>
+			<textColor>${CorHelpLetras}</textColor>
 			<scope>view</scope>
+			<backgroundColor>${CorHelpFundo}</backgroundColor>
+			<backgroundVerticalPadding>0.02 0.02</backgroundVerticalPadding>
 		</helpsystem>
-		<image name="help-esquerdo-fundo">
-			<origin>0 1</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>${CorMiniFundo}</color>
-			<zIndex>5</zIndex>
-			<cornerRadius>0.009</cornerRadius>
-		</image>
-		<image name="help-esquerdo-sombra">
+		<helpsystem name="help-esquerdo">
+			<origin>0 0</origin>
+		</helpsystem>
+		<helpsystem name="help-direito">
+			<origin>1 0</origin>
+		</helpsystem>
+		<!--<image name="help-esquerdo-sombra">
 			<origin>0 1</origin>
 			<path>${spacerImage}</path>
 			<tile>true</tile>
 			<color>00000033</color>
 			<zIndex>4</zIndex>
-			<cornerRadius>0.009</cornerRadius>
-		</image>
-		<helpsystem name="help-direito">
-			<origin>1 0</origin>
-			<fontSize>0.026</fontSize>
-			<fontPath>${fontMedium}</fontPath>
-			<letterCase>capitalize</letterCase>
-			<iconColor>${CorLetrasGeral}</iconColor>
-			<textColor>${CorLetrasGeral}</textColor>
-			<scope>view</scope>
-		</helpsystem>
-		<image name="help-direito-fundo">
-			<origin>1 1</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>${CorMiniFundo}</color>
-			<zIndex>5</zIndex>
 			<cornerRadius>0.009</cornerRadius>
 		</image>
 		<image name="help-direito-sombra">
@@ -140,7 +128,7 @@ by:   	MrFull57
 			<color>00000033</color>
 			<zIndex>4</zIndex>
 			<cornerRadius>0.009</cornerRadius>
-		</image>
+		</image>-->
 		<helpsystem name="help-menu">
 			<origin>1 0</origin>
 			<pos>0.975 0.925</pos>
@@ -400,8 +388,8 @@ by:   	MrFull57
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontMedium}</fontPath>
-			<metadata>name</metadata>
 			<color>${CorLetrasTitulos}</color>
+			<metadata>name</metadata>
 		</text>
 		<text name="carousel-name">
 			<color>${CorLetrasTitulos}</color>
@@ -530,6 +518,13 @@ by:   	MrFull57
 		<helpsystem name="help-direito">
 			<entries>start,back,x,y,a</entries>
 		</helpsystem>
+		
+		<text name="custom-titulo">
+			<fontPath>${fontMedium}</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${CorLetrasTitulos}</color>
+			<horizontalAlignment>center</horizontalAlignment>
+		</text>
 	</view>
 	<fontSize name="medium">
 		<variables>
