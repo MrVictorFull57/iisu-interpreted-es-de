@@ -653,6 +653,31 @@ by:   	MrFull57
 			<langLabelTotalGames>總遊戲數:</langLabelTotalGames>
 		</variables>
 	</language>
+	<language name="en_GB">
+		<variables>
+			<langLabelTotalGames>Total Games:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="bs_BA">
+		<variables>
+			<langLabelTotalGames>Ukupno Igara:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="hr_HR">
+		<variables>
+			<langLabelTotalGames>Ukupno Igara:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="pt_PT">
+		<variables>
+			<langLabelTotalGames>Total de Jogos:</langLabelTotalGames>
+		</variables>
+	</language>
+	<language name="sr_RS">
+		<variables>
+			<langLabelTotalGames>Укупно Игара:</langLabelTotalGames>
+		</variables>
+	</language>
 
 	<!--///	Aspect Ratios ///-->
 	<aspectRatio name="16:9">
