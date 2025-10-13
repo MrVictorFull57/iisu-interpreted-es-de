@@ -262,7 +262,7 @@ by:   	MrFull57
 		</text>
 		<text name="system-game-count">
 			<origin>0.5 0.5</origin>
-			<fontSize>${systemGameCountFontSize}</fontSize> 
+			<fontSize>0.03</fontSize> 
 			<fontPath>${fontMedium}</fontPath>
 			<systemdata>gamecountGamesNoText</systemdata>
 			<color>${CorLetrasGeral}</color>
@@ -321,12 +321,6 @@ by:   	MrFull57
 			<entries>a</entries>
 		</helpsystem>
 	</view>
-	<fontSize name="medium">
-		<variables>
-			<systemGameCountFontSize>0.030</systemGameCountFontSize>
-			<systemMetadataFontSize>0.026</systemMetadataFontSize>
-		</variables>
-	</fontSize>
    
 	<!--///	Gamelist View: Carousel	///-->
 	<view name="gamelist">
@@ -407,6 +401,7 @@ by:   	MrFull57
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>top</verticalAlignment>
 			<color>${CorLetrasGeral}</color>
+			<format>%d/%m/%Y</format>
 		</datetime>
 		<text name="textlist-players">
 			<origin>0 0.5</origin>
@@ -526,12 +521,6 @@ by:   	MrFull57
 			<horizontalAlignment>center</horizontalAlignment>
 		</text>
 	</view>
-	<fontSize name="medium">
-		<variables>
-			<carouselGameNameFontSize>0.065</carouselGameNameFontSize>
-			<carouselSystemNameFontSize>0.026</carouselSystemNameFontSize>
-		</variables>
-	</fontSize>
 
 	<variant name="gamelist-carousel-default">
 		

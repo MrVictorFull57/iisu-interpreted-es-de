@@ -32,9 +32,6 @@
 	<aspectRatio>21:9</aspectRatio>
 	<aspectRatio>19.5:9</aspectRatio>
 
-	<!--///	Tamanhos das Fontes ///-->
-	<fontSize>medium</fontSize>
-	
 	<!--/// Transições ///-->
 	<transitions name="transitions">
 		<label>transitions</label>
