@@ -3,7 +3,7 @@ A work-in-progress port of iiSU, UsagiShade's upcoming clean UI to [ES-DE](https
 
 Thanks to the collaboration of [@anthonycaccese](https://github.com/anthonycaccese), various aspect ratios are now compatible. 16:9, 16:10, 21:9, 4:3 and 19.5:9.
 
-Through the 4 available variants, you can choose to hide the clock, the system view controller icons, or both, or keep the defualt view.
+Through the 4 available variants, you can choose to hide the clock, the system view controller icons, or both, or keep the default view.
 
 ## **Preview**
 | System View (Light) | Gamelist View (Light) |
