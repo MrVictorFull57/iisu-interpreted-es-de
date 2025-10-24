@@ -8,12 +8,12 @@ Through the 4 available variants, you can choose to hide the clock, the system v
 ## **Preview**
 | System View (Light) | Gamelist View (Light) |
 |----|----|
-| ![preview1](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/8c0ef238a65f423544fb18c33e3a9f0892eb1e3a/.screenshots/system-light.webp) | ![preview2](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/8c0ef238a65f423544fb18c33e3a9f0892eb1e3a/.screenshots/gamelist-light.webp) |
+| ![preview1](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-system.jpg) | ![preview2](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-gamelist.jpg) |
 
 | System View (Dark) | Gamelist View (Dark) |
 |----|----|
-| ![preview3](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/8c0ef238a65f423544fb18c33e3a9f0892eb1e3a/.screenshots/system-dark.webp) | ![preview4](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/8c0ef238a65f423544fb18c33e3a9f0892eb1e3a/.screenshots/gamelist-dark.webp) |
+| ![preview3](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-system.jpg) | ![preview4](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-gamelist.jpg) |
 
 | System View (Blue) | Gamelist View (Blue) |
 |----|----|
-| ![preview3](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/8c0ef238a65f423544fb18c33e3a9f0892eb1e3a/.screenshots/system-blue.webp) | ![preview4](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/8c0ef238a65f423544fb18c33e3a9f0892eb1e3a/.screenshots/gamelist-blue.webp) |
+| ![preview3](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-system.jpg) | ![preview4](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-gamelist.jpg) |
