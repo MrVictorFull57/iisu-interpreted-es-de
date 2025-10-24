@@ -23,12 +23,13 @@ by:   	MrFull57
 			<CorFundoTopo>f4f4f4</CorFundoTopo>
 			<CorFundoRodape>ececec</CorFundoRodape>
 			<CorFundoBolinhas>ffffff</CorFundoBolinhas>
-			<CorLetrasGeral>706a78</CorLetrasGeral>
-			<CorLetrasTitulos>706a78</CorLetrasTitulos>
+			<CorLetrasGeral>403a46</CorLetrasGeral>
+			<CorLetrasTitulos>403a46</CorLetrasTitulos>
 			<FundoOpacidade>0.24</FundoOpacidade>
 			<CorMiniFundo>ffffff</CorMiniFundo>
-			<CorHelpLetras>ffffff</CorHelpLetras>
-			<CorHelpFundo>7f7888</CorHelpFundo>
+			<CorHelpFundo>ffffffcc</CorHelpFundo>
+			<CorHelpFundo2>d1cddacc</CorHelpFundo2>
+			<CorDeFato>light</CorDeFato>
 		</variables>
     </colorScheme>
 	<colorScheme name="dark">
@@ -36,12 +37,13 @@ by:   	MrFull57
 			<CorFundoTopo>262626</CorFundoTopo>
 			<CorFundoRodape>161616</CorFundoRodape>
 			<CorFundoBolinhas>3c3c3c</CorFundoBolinhas>
-			<CorLetrasGeral>706a78</CorLetrasGeral>
+			<CorLetrasGeral>403a46</CorLetrasGeral>
 			<CorLetrasTitulos>e0e0e0</CorLetrasTitulos>
 			<FundoOpacidade>0.15</FundoOpacidade>
 			<CorMiniFundo>e0e0e0</CorMiniFundo>
-			<CorHelpLetras>706a78</CorHelpLetras>
-			<CorHelpFundo>e0e0e0</CorHelpFundo>
+			<CorHelpFundo>ffffff44</CorHelpFundo>
+			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
+			<CorDeFato>dark</CorDeFato>
 		</variables>
     </colorScheme>
 	<colorScheme name="blue">
@@ -53,8 +55,9 @@ by:   	MrFull57
 			<CorLetrasTitulos>f0eff1</CorLetrasTitulos>
 			<FundoOpacidade>0.15</FundoOpacidade>
 			<CorMiniFundo>f0eff1</CorMiniFundo>
-			<CorHelpLetras>5c5a91</CorHelpLetras>
-			<CorHelpFundo>f0eff1</CorHelpFundo>
+			<CorHelpFundo>ffffff44</CorHelpFundo>
+			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
+			<CorDeFato>blue</CorDeFato>
 		</variables>
     </colorScheme>
 
@@ -73,16 +76,8 @@ by:   	MrFull57
 		</image>
 		<image name="reloginho">
 			<origin>1 0</origin>
-			<path>./_inc/images/reloginho.png</path>
+			<path>./_inc/images/${CorDeFato}/reloginho.png</path>
 			<zIndex>5</zIndex>
-			<color>${CorLetrasTitulos}</color>
-			<interpolation>linear</interpolation>
-		</image>
-		<image name="reloginho-sombra">
-			<origin>1 0</origin>
-			<path>./_inc/images/reloginho.png</path>
-			<zIndex>4</zIndex>
-			<color>00000033</color>
 			<interpolation>linear</interpolation>
 		</image>
 		<image name="setinha-com-ou-sem-controle">
@@ -101,10 +96,12 @@ by:   	MrFull57
 			<fontSize>0.026</fontSize>
 			<fontPath>${fontMedium}</fontPath>
 			<letterCase>capitalize</letterCase>
-			<iconColor>${CorHelpLetras}</iconColor>
-			<textColor>${CorHelpLetras}</textColor>
+			<iconColor>${CorLetrasTitulos}</iconColor>
+			<textColor>${CorLetrasTitulos}</textColor>
 			<scope>view</scope>
 			<backgroundColor>${CorHelpFundo}</backgroundColor>
+			<backgroundColorEnd>${CorHelpFundo2}</backgroundColorEnd>
+			<backgroundGradientType>vertical</backgroundGradientType>
 			<backgroundVerticalPadding>0.02 0.02</backgroundVerticalPadding>
 		</helpsystem>
 		<helpsystem name="help-esquerdo">
@@ -113,22 +110,6 @@ by:   	MrFull57
 		<helpsystem name="help-direito">
 			<origin>1 0</origin>
 		</helpsystem>
-		<!--<image name="help-esquerdo-sombra">
-			<origin>0 1</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>00000033</color>
-			<zIndex>4</zIndex>
-			<cornerRadius>0.009</cornerRadius>
-		</image>
-		<image name="help-direito-sombra">
-			<origin>1 1</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>00000033</color>
-			<zIndex>4</zIndex>
-			<cornerRadius>0.009</cornerRadius>
-		</image>-->
 		<helpsystem name="help-menu">
 			<origin>1 0</origin>
 			<pos>0.975 0.925</pos>
@@ -163,13 +144,6 @@ by:   	MrFull57
 			<horizontalAlignment>center</horizontalAlignment>
 			<scope>view</scope>
 		</clock>
-		<!--<clock name="data-de-hoje">
-			<fontPath>${fontMedium}</fontPath>
-			<fontSize>0.037</fontSize>
-			<color>${CorLetrasTitulos}</color>
-			<format>%d/%m</format>
-			<horizontalAlignment>center</horizontalAlignment>
-		</clock>-->
 	</view>
 	<view name="system">
 		<image name="system-background">
@@ -267,33 +241,11 @@ by:   	MrFull57
 			<systemdata>gamecountGamesNoText</systemdata>
 			<color>${CorLetrasGeral}</color>
 		</text>
-		<image name="jogos-totais-fundo-parte-preta">
+		<image name="jogos-totais-fundo">
 			<origin>0 0.5</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>${CorLetrasGeral}</color>
-			<zIndex>6</zIndex>
-		</image>
-		<image name="jogos-totais-fundo-parte-branca">
-			<origin>0 0.5</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>${CorMiniFundo}</color>
-			<zIndex>7</zIndex>
-		</image>
-		<image name="jogos-totais-fundo-linha">
-			<origin>0 0.5</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>${CorMiniFundo}</color>
 			<zIndex>5</zIndex>
-		</image>
-		<image name="jogos-totais-fundo-sombra">
-			<origin>0 0.5</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<color>00000033</color>
-			<zIndex>4</zIndex>
+			<path>./_inc/images/${CorDeFato}/contador-jogos.png</path>
+			<interpolation>linear</interpolation>
 		</image>
 		<text name="jogos-totais-indicacao">
 			<origin>0.5 0.5</origin>
@@ -392,49 +344,44 @@ by:   	MrFull57
 			<color>00000033</color>
 			<zIndex>5</zIndex>
 		</text>
-		<datetime name="textlist-releasedate">
+		<datetime name="textlist-releasedate,textlist-lastplayed">
 			<origin>0 0.5</origin>
 			<size>0.45 0.16</size>
 			<fontSize>0.026</fontSize>
 			<fontPath>${fontMedium}</fontPath>
-			<metadata>releasedate</metadata>
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>top</verticalAlignment>
 			<color>${CorLetrasGeral}</color>
 		</datetime>
-		<text name="textlist-players">
+		<text name="textlist-players,textlist-developer,textlist-playtime">
 			<origin>0 0.5</origin>
-			<size>0.45 0.16</size>
 			<fontSize>0.026</fontSize>
 			<fontPath>${fontMedium}</fontPath>
-			<metadata>players</metadata>
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>top</verticalAlignment>
 			<metadataElement>true</metadataElement>
 			<color>${CorLetrasGeral}</color>
 		</text>
+		<datetime name="textlist-releasedate">
+			<metadata>releasedate</metadata>
+		</datetime>
+		<text name="textlist-players">
+			<size>0.45 0.16</size>
+			<metadata>players</metadata>
+			<defaultValue>??</defaultValue>
+		</text>
 		<text name="textlist-developer">
-			<origin>0 0.5</origin>
-			<fontSize>0.026</fontSize>
-			<fontPath>${fontMedium}</fontPath>
 			<metadata>developer</metadata>
-			<horizontalAlignment>left</horizontalAlignment>
-			<verticalAlignment>top</verticalAlignment>
-			<metadataElement>true</metadataElement>
-			<color>${CorLetrasGeral}</color>
 			<container>true</container>
 			<containerType>horizontal</containerType>
 		</text>
 		<datetime name="textlist-lastplayed">
-			<origin>0 0.5</origin>
-			<size>0.45 0.16</size>
-			<fontSize>0.026</fontSize>
-			<fontPath>${fontMedium}</fontPath>
 			<metadata>lastplayed</metadata>
-			<horizontalAlignment>left</horizontalAlignment>
-			<verticalAlignment>top</verticalAlignment>
-			<color>${CorLetrasGeral}</color>
 		</datetime>
+		<!--<text name="textlist-playtime">
+			<size>0.45 0.16</size>
+			<metadata>playtime</metadata>
+		</text>-->                                                           <!-- reservado para versão 3.4.0 -->
 		<video name="textlist-video">
 			<origin>0.5 0.5</origin>
 			<videoCornerRadius>0.01</videoCornerRadius>
@@ -452,38 +399,13 @@ by:   	MrFull57
 			<metadataElement>true</metadataElement>
 			<zIndex>4</zIndex>
 		</image>
-		<image name="metadados-fundo-parte-preta,metadados-fundo-parte-branca,metadados-fundo-linha,metadados-fundo-sombra">
-			<origin>0 0.5</origin>
-			<path>${spacerImage}</path>
-			<tile>true</tile>
-			<metadataElement>true</metadataElement>
-		</image>
-		<image name="metadados-fundo-parte-preta">
-			<color>${CorLetrasGeral}</color>
-			<zIndex>6</zIndex>
-			<cornerRadius>0.013</cornerRadius>
-		</image>
-		<image name="metadados-fundo-parte-branca">
-			<color>${CorMiniFundo}</color>
-			<zIndex>7</zIndex>
-			<cornerRadius>0.011</cornerRadius>
-		</image>
-		<image name="metadados-fundo-linha">
-			<color>${CorMiniFundo}</color>
+		<image name="metadados-fundo">
 			<zIndex>5</zIndex>
-			<cornerRadius>0.015</cornerRadius>
-		</image>
-		<image name="metadados-fundo-sombra">
-			<color>00000033</color>
-			<zIndex>4</zIndex>
-			<cornerRadius>0.015</cornerRadius>
-		</image>
-		<image name="metadados-icones">
 			<origin>0 0.5</origin>
-			<path>./_inc/images/icones-metadados.png</path>
-			<color>${CorMiniFundo}</color>
-			<zIndex>9</zIndex>
 			<metadataElement>true</metadataElement>
+			<path>./_inc/images/${CorDeFato}/detalhes-pre.png</path>
+			<!--<path>./_inc/images/${CorDeFato}/detalhes.png</path>-->            <!-- reservado para versão 3.4.0 -->
+			<interpolation>linear</interpolation>
 		</image>
 		<badges name="carousel-badges">
 			<origin>0.5 0</origin>
@@ -535,8 +457,8 @@ by:   	MrFull57
 	
 	<variant name="gamelist-carousel-noclock">
 		<view name="system,gamelist">
-			<image name="reloginho,reloginho-sombra">
-				<path>./_inc/images/sem-reloginho.png</path>
+			<image name="reloginho">
+				<path>./_inc/images/${CorDeFato}/sem-reloginho.png</path>
 			</image>
 			<clock name="clock">
 				<scope>none</scope>
@@ -546,8 +468,8 @@ by:   	MrFull57
 	
 	<variant name="gamelist-carousel-neither">	
 		<view name="system,gamelist">
-			<image name="reloginho,reloginho-sombra">
-				<path>./_inc/images/sem-reloginho.png</path>
+			<image name="reloginho">
+				<path>./_inc/images/${CorDeFato}/sem-reloginho.png</path>
 			</image>
 			<clock name="clock">
 				<scope>none</scope>

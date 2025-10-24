@@ -1,14 +1,9 @@
 <theme>
 <!-- Based on 1920x1080 -->
 	<view name="system,gamelist">
-		<image name="reloginho,reloginho-sombra">
-			<size>0.31510417 0</size><!-- 509 0 --><!-- 605 0 -->
-		</image>
 		<image name="reloginho">
+			<size>0.31510417 0</size><!-- 509 0 --><!-- 605 0 -->
 			<pos>1 0.03981481</pos><!-- 1920 43 -->
-		</image>
-		<image name="reloginho-sombra">
-			<pos>1.00260417 0.04537037</pos><!-- 1925 49 -->
 		</image>
 		<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-sombra">
 			<size>0.115 0</size>
@@ -29,20 +24,14 @@
 			<entrySpacing>0.00833333</entrySpacing><!-- 16 -->
 			<iconTextSpacing>0.00416667</iconTextSpacing><!-- 8 -->
 			<backgroundHorizontalPadding>0.0125 0.0125</backgroundHorizontalPadding>
-			<backgroundCornerRadius>0.009</backgroundCornerRadius>
+			<backgroundCornerRadius>0.018</backgroundCornerRadius>
 		</helpsystem>
 		<helpsystem name="help-esquerdo">
 			<pos>0.025 0.925</pos><!-- 48 999 -->
 		</helpsystem>
-		<image name="help-esquerdo-sombra">
-			<pos>0.015625 0.97777778</pos><!-- 30 1056 -->
-		</image>
 		<helpsystem name="help-direito">
 			<pos>0.975 0.925</pos><!-- 1872 999 -->
 		</helpsystem>
-		<image name="help-direito-sombra">
-			<pos>0.98958333 0.97777778</pos><!-- 1900 1056 -->
-		</image>
 	</view>
 	<view name="system">
 		<carousel name="system-carousel">
@@ -67,38 +56,16 @@
 		<text name="custom-nome-sombra">
 			<pos>0.4105 0.491</pos>
 		</text>
-		<image name="jogos-totais-fundo-parte-preta">
-			<pos>0.41 0.5</pos>
-			<size>0.235 0.06</size>
-			<cornerRadius>0.015</cornerRadius>
-		</image>
-		<image name="jogos-totais-fundo-parte-branca">
-			<pos>0.5575 0.5</pos>
-			<size>0.085 0.05</size>
-			<cornerRadius>0.013</cornerRadius>
-		</image>
-		<image name="jogos-totais-fundo-linha">
-			<pos>0.4085 0.5</pos>
-			<size>0.238 0.065</size>
-			<cornerRadius>0.017</cornerRadius>
-		</image>
-		<image name="jogos-totais-fundo-sombra">
-			<pos>0.411 0.506</pos>
-			<size>0.239 0.068</size>
-			<cornerRadius>0.017</cornerRadius>
+		<image name="jogos-totais-fundo">
+			<pos>0.4085 0.504</pos>
+			<size>0.238 0</size>
 		</image>
 		<text name="system-game-count">
-			<pos>0.6 0.5</pos>
+			<pos>0.595 0.5</pos>
 		</text>
 		<text name="jogos-totais-indicacao">
 			<pos>0.485 0.5</pos>
 		</text>
-		<image name="help-esquerdo-sombra">
-			<size>0.08125 0.06944444</size><!-- 156 75 -->
-		</image>
-		<image name="help-direito-sombra">
-			<size>0.0975 0.06944444</size><!-- 166 75 -->
-		</image>
 	</view>
 	<view name="gamelist">
 		<carousel name="game-carousel">
@@ -133,44 +100,25 @@
 			<pos>0.45 0.57</pos>
 		</datetime>
 		<text name="textlist-players">
-			<pos>0.45 0.615</pos>
+			<pos>0.45 0.624167</pos>
 		</text>
 		<text name="textlist-developer">
-			<pos>0.45 0.663</pos>
+			<pos>0.45 0.678334</pos>
 			<size>0.1725 0.16</size>
 		</text>
 		<datetime name="textlist-lastplayed">
-			<pos>0.45 0.715</pos>
+			<pos>0.45 0.732501</pos>
 		</datetime>
-		<image name="metadados-fundo-parte-preta">
-			<pos>0.41 0.58</pos>
-			<size>0.221 0.22</size>
-		</image>
-		<image name="metadados-fundo-parte-branca">
-			<pos>0.443 0.581</pos>
-			<size>0.185 0.21</size>
-		</image>
-		<image name="metadados-fundo-linha">
-			<pos>0.4085 0.58</pos>
-			<size>0.224 0.225</size>
-		</image>
-		<image name="metadados-fundo-sombra">
-			<pos>0.4115 0.586</pos>
-			<size>0.224 0.225</size>
-		</image>
-		<image name="metadados-icones">
-			<pos>0.414 0.581</pos>
-			<size>0.025 0</size>
+		<text name="textlist-playtime">
+			<pos>0.45 0.786668</pos>
+		</text>
+		<image name="metadados-fundo">
+			<pos>0.4085 0.621</pos>
+			<size>0.224 0</size>
 		</image>
 		<badges name="carousel-badges">
 			<pos>0.83 0.485</pos>
 		</badges>
-		<image name="help-esquerdo-sombra">
-			<size>0.08125 0.06944444</size><!-- 156 75 -->
-		</image>
-		<image name="help-direito-sombra">
-			<size>0.4375 0.06944444</size><!-- 840 75 -->
-		</image>
 		<text name="custom-titulo">
 			<pos>0.0125 0.625</pos>
 			<size>0.1525 0.031</size>
