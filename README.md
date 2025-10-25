@@ -8,12 +8,12 @@ Through the 4 available variants, you can choose to hide the clock, the system v
 ## **Preview**
 | System View (Light) | Gamelist View (Light) |
 |----|----|
-| ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-system.jpg) | ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-gamelist.jpg) |
+| ![aa](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-system.jpg) | ![bb](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-gamelist.jpg) |
 
 | System View (Dark) | Gamelist View (Dark) |
 |----|----|
-| ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-system.jpg) | ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-gamelist.jpg) |
+| ![cc](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-system.jpg) | ![dd](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-gamelist.jpg) |
 
 | System View (Blue) | Gamelist View (Blue) |
 |----|----|
-| ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-system.jpg) | ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-gamelist.jpg) |
+| ![ee](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-system.jpg) | ![ff](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-gamelist.jpg) |
