@@ -8,12 +8,12 @@ Through the 4 available variants, you can choose to hide the clock, the system v
 ## **Preview**
 | System View (Light) | Gamelist View (Light) |
 |----|----|
-| ![preview1](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-system.jpg) | ![preview2](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-gamelist.jpg) |
+| ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-system.jpg) | ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/light-gamelist.jpg) |
 
 | System View (Dark) | Gamelist View (Dark) |
 |----|----|
-| ![preview3](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-system.jpg) | ![preview6](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-gamelist.jpg) |
+| ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-system.jpg) | ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/dark-gamelist.jpg) |
 
 | System View (Blue) | Gamelist View (Blue) |
 |----|----|
-| ![preview5](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-system.jpg) | ![preview4](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-gamelist.jpg) |
+| ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-system.jpg) | ![](https://github.com/MrVictorFull57/iisu-interpreted-es-de/blob/d905f6b55515c65e4138ea68f51f33fa692b8726/.screenshots/blue-gamelist.jpg) |
