@@ -26,6 +26,7 @@ by:   	MrFull57
 			<CorLetrasGeral>403a46</CorLetrasGeral>
 			<CorLetrasTitulos>403a46</CorLetrasTitulos>
 			<FundoOpacidade>0.24</FundoOpacidade>
+			<FundoSaturacao>1</FundoSaturacao>
 			<CorMiniFundo>ffffff</CorMiniFundo>
 			<CorHelpFundo>ffffffcc</CorHelpFundo>
 			<CorHelpFundo2>d1cddacc</CorHelpFundo2>
@@ -39,7 +40,8 @@ by:   	MrFull57
 			<CorFundoBolinhas>3c3c3c</CorFundoBolinhas>
 			<CorLetrasGeral>403a46</CorLetrasGeral>
 			<CorLetrasTitulos>e0e0e0</CorLetrasTitulos>
-			<FundoOpacidade>0.15</FundoOpacidade>
+			<FundoOpacidade>0.12</FundoOpacidade>
+			<FundoSaturacao>1</FundoSaturacao>
 			<CorMiniFundo>e0e0e0</CorMiniFundo>
 			<CorHelpFundo>ffffff44</CorHelpFundo>
 			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
@@ -54,6 +56,7 @@ by:   	MrFull57
 			<CorLetrasGeral>5c5a91</CorLetrasGeral>
 			<CorLetrasTitulos>f0eff1</CorLetrasTitulos>
 			<FundoOpacidade>0.15</FundoOpacidade>
+			<FundoSaturacao>0.5</FundoSaturacao>
 			<CorMiniFundo>f0eff1</CorMiniFundo>
 			<CorHelpFundo>ffffff44</CorHelpFundo>
 			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
@@ -284,6 +287,7 @@ by:   	MrFull57
 			<zIndex>2</zIndex>
 			<scrollFadeIn>true</scrollFadeIn>
 			<opacity>${FundoOpacidade}</opacity>
+			<saturation>${FundoSaturacao}</saturation>
 		</image>
 		<carousel name="game-carousel">
 			<origin>0.5 0.5</origin>
