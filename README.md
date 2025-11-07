@@ -5,6 +5,9 @@ Thanks to the collaboration of [@anthonycaccese](https://github.com/anthonycacce
 
 Through the 4 available variants, you can choose to hide the clock, the system view controller icons, or both, or keep the default view.
 
+### **IMPORTANT**
+For version 3.4.0 or newer, due to playtime tracking support. To avoid issues and ensure that this feature works correctly, please ensure that your ES-DE is up to date.
+
 ## **Preview**
 | System View (Light) | Gamelist View (Light) |
 |----|----|
