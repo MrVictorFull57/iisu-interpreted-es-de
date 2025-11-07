@@ -382,10 +382,10 @@ by:   	MrFull57
 		<datetime name="textlist-lastplayed">
 			<metadata>lastplayed</metadata>
 		</datetime>
-		<!--<text name="textlist-playtime">
+		<text name="textlist-playtime">
 			<size>0.45 0.16</size>
 			<metadata>playtime</metadata>
-		</text>-->                                                           <!-- reservado para versão 3.4.0 -->
+		</text>
 		<video name="textlist-video">
 			<origin>0.5 0.5</origin>
 			<videoCornerRadius>0.01</videoCornerRadius>
@@ -407,8 +407,7 @@ by:   	MrFull57
 			<zIndex>5</zIndex>
 			<origin>0 0.5</origin>
 			<metadataElement>true</metadataElement>
-			<path>./_inc/images/${CorDeFato}/detalhes-pre.png</path>
-			<!--<path>./_inc/images/${CorDeFato}/detalhes.png</path>-->            <!-- reservado para versão 3.4.0 -->
+			<path>./_inc/images/${CorDeFato}/detalhes.png</path>
 			<interpolation>linear</interpolation>
 		</image>
 		<badges name="carousel-badges">
