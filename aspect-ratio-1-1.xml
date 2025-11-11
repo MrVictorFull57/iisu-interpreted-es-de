@@ -1,0 +1,129 @@
+<theme>
+	<!-- Based on 1080x1080 -->
+	<view name="system,gamelist">
+		<image name="reloginho">
+			<size>0.42013889 0</size>
+			<pos>1 0.045</pos>
+		</image>
+		<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-sombra">
+			<size>0.15333333 0</size>
+		</image>
+		<image name="setinha-com-ou-sem-controle">
+			<pos>0.05 0.5</pos>
+		</image>
+		<image name="setinha-com-ou-sem-controle-sombra">
+			<pos>0.050 0.50</pos>
+		</image>
+		<systemstatus name="system-status">
+			<pos>0.97361111 0.06</pos>
+		</systemstatus>
+		<clock name="clock">
+			<pos>0.645 0.06</pos>
+		</clock>
+		<helpsystem name="help-esquerdo,help-direito">
+			<entrySpacing>0.01111111</entrySpacing>
+			<iconTextSpacing>0.00555556</iconTextSpacing>
+			<backgroundHorizontalPadding>0.01666667 0.01666667</backgroundHorizontalPadding>
+			<backgroundCornerRadius>0.0225</backgroundCornerRadius>
+		</helpsystem>
+		<helpsystem name="help-esquerdo">
+			<pos>0.03333333 0.925</pos>
+		</helpsystem>
+		<helpsystem name="help-direito">
+			<pos>0.96666667 0.925</pos>
+		</helpsystem>
+	</view>
+	<view name="system">
+		<carousel name="system-carousel">
+			<pos>0.295 0.5</pos>
+			<itemSize>0.14133333 0.19</itemSize> 
+		</carousel>
+		<text name="system-nome">
+			<pos>0.528 0.505</pos>
+		</text>
+		<text name="system-nome-sombra">
+			<pos>0.533 0.511</pos>
+		</text>
+		<text name="auto-nome">
+			<pos>0.528 0.505</pos>
+		</text>
+		<text name="auto-nome-sombra">
+			<pos>0.533 0.511</pos>
+		</text>
+		<text name="custom-nome">
+			<pos>0.528 0.505</pos>
+		</text>
+		<text name="custom-nome-sombra">
+			<pos>0.533 0.511</pos>
+		</text>
+		<image name="jogos-totais-fundo">
+			<pos>0.5275 0.525</pos>
+			<size>0.31733333 0</size>
+		</image>
+		<text name="system-game-count">
+			<pos>0.775 0.5215</pos>
+		</text>
+		<text name="jogos-totais-indicacao">
+			<pos>0.6275 0.5215</pos>
+		</text>
+		<image name="system-console">
+			<visible>false</visible>
+		</image>
+	</view>
+	<view name="gamelist">
+		<carousel name="game-carousel">
+			<pos>0.295 0.5</pos>
+			<itemSize>0.14133333 0.19</itemSize> 
+		</carousel>
+		<text name="carousel-name">
+			<pos>0.528 0.505</pos>
+		</text>
+		<text name="carousel-name-sombra">
+			<pos>0.533 0.511</pos>
+		</text>
+		<image name="system-icon">
+			<pos>0.0975 0.5</pos>
+			<maxSize>0.14666667 0.2</maxSize>
+			<cornerRadius>0.008</cornerRadius>
+		</image>
+		<image name="system-icon-sombrinha">
+			<pos>0.101 0.506</pos>
+			<size>0.14666667 0.2</size>
+			<cornerRadius>0.008</cornerRadius>
+		</image>
+		<datetime name="textlist-releasedate">
+			<pos>0.5825 0.587</pos>
+		</datetime>
+		<text name="textlist-players">
+			<pos>0.5825 0.633</pos>
+		</text>
+		<text name="textlist-developer">
+			<pos>0.5825 0.678334</pos>
+			<size>0.23 0.16</size>
+		</text>
+		<datetime name="textlist-lastplayed">
+			<pos>0.5825 0.7255</pos>
+		</datetime>
+		<text name="textlist-playtime">
+			<pos>0.5825 0.772</pos>
+		</text>
+		<image name="metadados-fundo">
+			<pos>0.5275 0.621</pos>
+			<size>0.29866667 0</size>
+		</image>
+		<badges name="carousel-badges">
+			<pos>0.675 0.705</pos>
+		</badges>
+		<video name="textlist-video">
+			<visible>false</visible>
+		</video>
+		<image name="textlist-video-sombrinha">
+			<visible>false</visible>
+		</image>
+		<text name="custom-titulo">
+			<pos>0.0225 0.625</pos>
+			<size>0.1525 0.031</size>
+		</text>
+	</view>
+</theme>
+
