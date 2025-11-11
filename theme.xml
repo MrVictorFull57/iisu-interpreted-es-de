@@ -602,6 +602,9 @@ by:   	MrFull57
 	<aspectRatio name="4:3">
 		<include>./aspect-ratio-4-3.xml</include>
     </aspectRatio>
+ 	<aspectRatio name="1:1">
+		<include>./aspect-ratio-1-1.xml</include>
+    </aspectRatio>
 	<aspectRatio name="21:9">
 		<include>./aspect-ratio-21-9.xml</include>
     </aspectRatio>
