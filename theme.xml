@@ -63,6 +63,36 @@ by:   	MrFull57
 			<CorDeFato>blue</CorDeFato>
 		</variables>
     </colorScheme>
+	<colorScheme name="green">
+		<variables>
+			<CorFundoTopo>1b5e20</CorFundoTopo>
+			<CorFundoRodape>0d3b13</CorFundoRodape>
+			<CorFundoBolinhas>2e7d32</CorFundoBolinhas>
+			<CorLetrasGeral>6d8f6d</CorLetrasGeral>
+			<CorLetrasTitulos>e8f5e9</CorLetrasTitulos>
+			<FundoOpacidade>0.15</FundoOpacidade>
+			<FundoSaturacao>0.6</FundoSaturacao>
+			<CorMiniFundo>e8f5e9</CorMiniFundo>
+			<CorHelpFundo>ffffff44</CorHelpFundo>
+			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
+			<CorDeFato>green</CorDeFato>
+		</variables>
+    </colorScheme>
+	<colorScheme name="teal">
+		<variables>
+			<CorFundoTopo>00695c</CorFundoTopo>
+			<CorFundoRodape>004d40</CorFundoRodape>
+			<CorFundoBolinhas>00796b</CorFundoBolinhas>
+			<CorLetrasGeral>5e8f88</CorLetrasGeral>
+			<CorLetrasTitulos>e0f2f1</CorLetrasTitulos>
+			<FundoOpacidade>0.15</FundoOpacidade>
+			<FundoSaturacao>0.55</FundoSaturacao>
+			<CorMiniFundo>e0f2f1</CorMiniFundo>
+			<CorHelpFundo>ffffff44</CorHelpFundo>
+			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
+			<CorDeFato>teal</CorDeFato>
+		</variables>
+    </colorScheme>
 
 	<!--///	Todas as Views ///-->
 	<view name="system,gamelist">

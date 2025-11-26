@@ -219,5 +219,53 @@
         <label language="zh_CN">蓝色的</label>
         <label language="zh_TW">藍色的</label>
     </colorScheme>
+	
+	<colorScheme name="green">
+		<label language="en_US">Green</label>
+		<label language="en_GB">Green</label>
+		<label language="bs_BA">Zelena</label>
+		<label language="ca_ES">Verd</label>
+		<label language="de_DE">Grün</label>
+		<label language="es_ES">Verde</label>
+		<label language="fr_FR">Vert</label>
+		<label language="hr_HR">Zelena</label>
+		<label language="it_IT">Verde</label>
+		<label language="nl_NL">Groen</label>
+		<label language="pl_PL">Zielony</label>
+		<label language="pt_BR">Verde</label>
+		<label language="pt_PT">Verde</label>
+		<label language="ro_RO">Verde</label>
+		<label language="ru_RU">Зелёный</label>
+		<label language="sr_RS">Зелена</label>
+		<label language="sv_SE">Grön</label>
+		<label language="ja_JP">グリーン</label>
+		<label language="ko_KR">그린</label>
+		<label language="zh_CN">绿色</label>
+		<label language="zh_TW">綠色</label>
+	</colorScheme>
+
+	<colorScheme name="teal">
+		<label language="en_US">Teal</label>
+		<label language="en_GB">Teal</label>
+		<label language="bs_BA">Tirkizna</label>
+		<label language="ca_ES">Turquesa</label>
+		<label language="de_DE">Türkis</label>
+		<label language="es_ES">Verde Azulado</label>
+		<label language="fr_FR">Sarcelle</label>
+		<label language="hr_HR">Tirkizna</label>
+		<label language="it_IT">Verde Petrolio</label>
+		<label language="nl_NL">Turkoois</label>
+		<label language="pl_PL">Morski</label>
+		<label language="pt_BR">Azul Petróleo</label>
+		<label language="pt_PT">Azul Petróleo</label>
+		<label language="ro_RO">Turcoaz</label>
+		<label language="ru_RU">Бирюзовый</label>
+		<label language="sr_RS">Тиркизна</label>
+		<label language="sv_SE">Teal</label>
+		<label language="ja_JP">ティール</label>
+		<label language="ko_KR">틸</label>
+		<label language="zh_CN">蓝绿色</label>
+		<label language="zh_TW">藍綠色</label>
+	</colorScheme>
 
 </themeCapabilities>
