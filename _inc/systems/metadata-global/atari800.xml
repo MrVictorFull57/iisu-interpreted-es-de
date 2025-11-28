@@ -15,5 +15,8 @@ The Atari 400 was initially almost half the cost of the Atari 800. Instead of th
       <systemColorPalette2>EBD335</systemColorPalette2>
       <systemColorPalette3>5D3615</systemColorPalette3>
       <systemColorPalette4>BF9438</systemColorPalette4>
-	  <systemCartSize>373-436</systemCartSize>    </variables>
+	  <systemCartSize>373-436</systemCartSize>
+	  <iiSUColor1>CC9141</iiSUColor1>
+	  <iiSUColor2>C2CC41</iiSUColor2>
+	</variables>
 </theme>

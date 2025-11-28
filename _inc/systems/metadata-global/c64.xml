@@ -13,5 +13,8 @@
       <systemColorPalette2>968971</systemColorPalette2>
       <systemColorPalette3>FD4120</systemColorPalette3>
       <systemColorPalette4>00A0C6</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>0F5BAD</iiSUColor1>
+	  <iiSUColor2>0FAAAD</iiSUColor2>
+	</variables>
 </theme>

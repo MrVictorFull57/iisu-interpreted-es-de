@@ -16,5 +16,7 @@
         <systemColorPalette3>107C10</systemColorPalette3>
         <systemColorPalette4>7CB74E</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
-    </variables>
+	  <iiSUColor1>107C10</iiSUColor1>
+	  <iiSUColor2>467C10</iiSUColor2>
+	</variables>
 </theme>

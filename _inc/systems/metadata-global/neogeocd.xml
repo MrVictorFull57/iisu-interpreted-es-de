@@ -13,5 +13,8 @@
       <systemColorPalette2>FFD400</systemColorPalette2>
       <systemColorPalette3>0088CD</systemColorPalette3>
       <systemColorPalette4>24241E</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>AD90E2</iiSUColor1>
+	  <iiSUColor2>909CE2</iiSUColor2>
+	</variables>
 </theme>

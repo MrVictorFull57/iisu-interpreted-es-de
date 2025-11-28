@@ -13,5 +13,8 @@
       <systemColorPalette2>FAFAFA</systemColorPalette2>
       <systemColorPalette3>FFCB04</systemColorPalette3>
       <systemColorPalette4>111111</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>034EA2</iiSUColor1>
+	  <iiSUColor2>0703A2</iiSUColor2>
+	</variables>
 </theme>

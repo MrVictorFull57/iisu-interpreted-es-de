@@ -15,5 +15,8 @@ It includes a simplified internal design, a full-travel keyboard, improved graph
       <systemColorPalette2>C7C2BE</systemColorPalette2>
       <systemColorPalette3>1F1F1F</systemColorPalette3>
       <systemColorPalette4>FD7F34</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>FD7F34</iiSUColor1>
+	  <iiSUColor2>FD344E</iiSUColor2>
+	</variables>
 </theme>

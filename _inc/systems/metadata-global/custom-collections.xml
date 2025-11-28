@@ -8,7 +8,11 @@
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
       <systemHardwareType>Collection</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
-	  <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemImageType>marquee</systemImageType>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>C8B57D</iiSUColor1>
+	  <iiSUColor2>B5C87D</iiSUColor2>
+	</variables>
 
 
 </theme>

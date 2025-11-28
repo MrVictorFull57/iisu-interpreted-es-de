@@ -15,5 +15,8 @@ It was later released as the TurboGrafx-CD in the United States in November 1989
       <systemColorPalette2>D5E14D</systemColorPalette2>
       <systemColorPalette3>604832</systemColorPalette3>
       <systemColorPalette4>1E1C1A</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>F2984B</iiSUColor1>
+	  <iiSUColor2>F24B52</iiSUColor2>
+	</variables>
 </theme>

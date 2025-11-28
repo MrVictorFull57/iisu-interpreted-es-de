@@ -9,7 +9,9 @@
       <systemHardwareType>Favorites</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
       <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>
-   </variables>
+	  <iiSUColor1>C3848A</iiSUColor1>
+	  <iiSUColor2>C384AA</iiSUColor2>
+	</variables>
 
    
 

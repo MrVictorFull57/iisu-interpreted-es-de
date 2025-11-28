@@ -15,5 +15,8 @@ The original Master System models use both cartridges and a credit card-sized fo
       <systemColorPalette2>165193</systemColorPalette2>
       <systemColorPalette3>E60000</systemColorPalette3>
       <systemColorPalette4>1A1A1A</systemColorPalette4>
-	  <systemCartSize>112-67</systemCartSize>    </variables>
+	  <systemCartSize>112-67</systemCartSize>
+	  <iiSUColor1>C03F3B</iiSUColor1>
+	  <iiSUColor2>C03B79</iiSUColor2>
+	</variables>
 </theme>

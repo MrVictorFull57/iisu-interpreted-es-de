@@ -1,17 +1,17 @@
 <theme>
-	<!-- Based on 1440x1080 -->
+	<!-- Based on 960x720 -->
 	<view name="system,gamelist">
 		<image name="reloginho">
 			<size>0.42013889 0</size><!-- 509 0 -->
 			<pos>1 0.03981481</pos><!-- 1920 43 -->
 		</image>
-		<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-sombra">
+		<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-sombra,setinha-com-ou-sem-controle-fundo,setinha-apenas,setinha-apenas-sombra">
 			<size>0.15333333 0</size>
 		</image>
-		<image name="setinha-com-ou-sem-controle">
+		<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-fundo,setinha-apenas">
 			<pos>0.05 0.5</pos>
 		</image>
-		<image name="setinha-com-ou-sem-controle-sombra">
+		<image name="setinha-com-ou-sem-controle-sombra,setinha-apenas-sombra">
 			<pos>0.053 0.506</pos>
 		</image>
 		<systemstatus name="system-status">
@@ -24,7 +24,7 @@
 			<entrySpacing>0.01111111</entrySpacing><!-- 16 -->
 			<iconTextSpacing>0.00555556</iconTextSpacing><!-- 8 -->
 			<backgroundHorizontalPadding>0.01666667 0.01666667</backgroundHorizontalPadding>
-			<backgroundCornerRadius>0.0225</backgroundCornerRadius>
+			<backgroundCornerRadius>0.023</backgroundCornerRadius>
 		</helpsystem>
 		<helpsystem name="help-esquerdo">
 			<pos>0.03333333 0.925</pos><!-- 48 999 -->
@@ -66,63 +66,164 @@
 		<text name="jogos-totais-indicacao">
 			<pos>0.6275 0.5</pos>
 		</text>
+	</view>
+	<variant name="gamelist-carousel-default,gamelist-carousel-noicons,gamelist-carousel-noclock,gamelist-carousel-neither">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<pos>0.295 0.5</pos>
+				<itemSize>0.14133333 0.19</itemSize>
+			</carousel>
+			<text name="carousel-name,carousel-name-custom,carousel-name-sombra,carousel-name-custom-sombra">
+				<origin>0 1</origin>
+				<size>0.45 0.2</size>
+				<fontSize>0.065</fontSize>
+				<horizontalAlignment>left</horizontalAlignment>
+				<container>false</container>
+			</text>
+			<text name="carousel-name,carousel-name-custom">
+				<pos>0.52125 0.485</pos>
+			</text>
+			<text name="carousel-name-sombra,carousel-name-custom-sombra">
+				<pos>0.52625 0.491</pos>
+			</text>
+			<image name="system-icon">
+				<pos>0.0975 0.5</pos>
+				<maxSize>0.14666667 0.2</maxSize>
+				<cornerRadius>0.008</cornerRadius>
+			</image>
+			<image name="system-icon-sombrinha">
+				<pos>0.101 0.506</pos>
+				<size>0.14666667 0.2</size>
+				<cornerRadius>0.008</cornerRadius>
+			</image>
+			<video name="textlist-video">
+				<pos>0.835 0.705</pos>
+				<cropSize>0.3 0.35</cropSize>
+			</video>
+			<image name="textlist-video-sombrinha">
+				<pos>0.838 0.711</pos>
+				<size>0.3 0.35</size>
+			</image>
+			<datetime name="textlist-releasedate">
+				<pos>0.5825 0.57</pos>
+			</datetime>
+			<text name="textlist-players">
+				<pos>0.5825 0.624167</pos>
+			</text>
+			<text name="textlist-developer">
+				<pos>0.5825 0.678334</pos>
+				<size>0.23 0.16</size>
+			</text>
+			<datetime name="textlist-lastplayed">
+				<pos>0.5825 0.732501</pos>
+			</datetime>
+			<text name="textlist-playtime">
+				<pos>0.5825 0.786668</pos>
+			</text>
+			<image name="metadados-fundo">
+				<pos>0.5275 0.621</pos>
+				<size>0.29866667 0</size>
+			</image>
+			<image name="fundo-titulo-roxo">
+				<visible>false</visible>
+			</image>
+			<badges name="carousel-badges">
+				<pos>0.675 0.765</pos>
+			</badges>
+			<text name="custom-titulo">
+				<pos>0.021 0.625</pos>
+				<size>0.1525 0.031</size>
+			</text>
+		</view>
+	</variant>
+	<variant name="grid">
+		<view name="gamelist">
+			<grid name="game-grid">
+				<pos>0.075 0.15</pos>
+				<size>0.866 0.75</size>
+				<itemSize>0.28 -1</itemSize>
+				<imageCornerRadius>0.018</imageCornerRadius>
+			</grid>
+			<text name="carousel-name,carousel-name-custom,carousel-name-sombra,carousel-name-custom-sombra">
+				<origin>0 0.5</origin>
+				<size>0.45 0.1</size>
+				<fontSize>0.045</fontSize>
+				<horizontalAlignment>center</horizontalAlignment>
+				<container>true</container>
+				<containerType>horizontal</containerType>
+			</text>
+			<text name="carousel-name,carousel-name-custom">
+				<pos>0.1065 0.07888889</pos>
+			</text>
+			<text name="carousel-name-sombra,carousel-name-custom-sombra">
+				<pos>0.1095 0.08188889</pos>
+			</text>
+			<image name="system-icon">
+				<pos>0.045 0.0735</pos>
+				<maxSize>0.11 0.088</maxSize>
+				<cornerRadius>0.008</cornerRadius>
+			</image>
+			<image name="system-icon-sombrinha">
+				<pos>0.0498 0.0765</pos>
+				<size>0.066 0.088</size>
+				<cornerRadius>0.008</cornerRadius>
+			</image>
+			<video name="textlist-video">
+				<pos>0.835 0.340</pos>
+				<cropSize>0.3 0.35</cropSize>
+			</video>
+			<image name="textlist-video-sombrinha">
+				<pos>0.838 0.346</pos>
+				<size>0.3 0.35</size>
+			</image>
+			<datetime name="textlist-releasedate">
+				<pos>0.77 0.65</pos>		<visible>false</visible>
+			</datetime>
+			<text name="textlist-players">
+				<pos>0.77 0.704167</pos>		<visible>false</visible>
+			</text>
+			<text name="textlist-developer">
+				<pos>0.77 0.758334</pos>
+				<size>0.1725 0.16</size>		<visible>false</visible>
+			</text>
+			<datetime name="textlist-lastplayed">
+				<pos>0.77 0.812501</pos>		<visible>false</visible>
+			</datetime>
+			<text name="textlist-playtime">
+				<pos>0.77 0.866668</pos>		<visible>false</visible>
+			</text>
+			<image name="metadados-fundo">
+				<pos>0.725 0.701</pos>
+				<size>0.29866667 0</size>		<visible>false</visible>
+			</image>
+			<image name="setinha-com-ou-sem-controle,setinha-com-ou-sem-controle-sombra,setinha-apenas,setinha-apenas-sombra">
+				<visible>false</visible>
+			</image>
+			<image name="fundo-titulo-roxo">
+				<path>./_inc/images/fundo-titulo-roxo-4-3.png</path>
+				<pos>0.0925 0.083</pos>
+				<size>0.48 0</size>
+			</image>
+			<badges name="carousel-badges">
+				<pos>0.83 0.13</pos>
+			</badges>
+			<text name="custom-titulo">
+				<pos>0.265 0.116</pos>
+				<size>0.1525 0.031</size>
+			</text>
+		</view>
+	</variant>
+	<view name="system">
 		<image name="system-console">
 			<visible>false</visible>
 		</image>
 	</view>
 	<view name="gamelist">
-		<carousel name="game-carousel">
-			<pos>0.295 0.5</pos>
-			<itemSize>0.14133333 0.19</itemSize> 
-		</carousel>
-		<text name="carousel-name">
-			<pos>0.52125 0.485</pos>
-		</text>
-		<text name="carousel-name-sombra">
-			<pos>0.52625 0.491</pos>
-		</text>
-		<image name="system-icon">
-			<pos>0.0975 0.5</pos>
-			<maxSize>0.14666667 0.2</maxSize>
-			<cornerRadius>0.008</cornerRadius>
-		</image>
-		<image name="system-icon-sombrinha">
-			<pos>0.101 0.506</pos>
-			<size>0.14666667 0.2</size>
-			<cornerRadius>0.008</cornerRadius>
-		</image>
-		<datetime name="textlist-releasedate">
-			<pos>0.5825 0.57</pos>
-		</datetime>
-		<text name="textlist-players">
-			<pos>0.5825 0.624167</pos>
-		</text>
-		<text name="textlist-developer">
-			<pos>0.5825 0.678334</pos>
-			<size>0.23 0.16</size>
-		</text>
-		<datetime name="textlist-lastplayed">
-			<pos>0.5825 0.732501</pos>
-		</datetime>
-		<text name="textlist-playtime">
-			<pos>0.5825 0.786668</pos>
-		</text>
-		<image name="metadados-fundo">
-			<pos>0.5275 0.621</pos>
-			<size>0.29866667 0</size>
-		</image>
-		<badges name="carousel-badges">
-			<pos>0.675 0.705</pos>
-		</badges>
 		<video name="textlist-video">
 			<visible>false</visible>
 		</video>
 		<image name="textlist-video-sombrinha">
 			<visible>false</visible>
 		</image>
-		<text name="custom-titulo">
-			<pos>0.0225 0.625</pos>
-			<size>0.1525 0.031</size>
-		</text>
 	</view>
 </theme>

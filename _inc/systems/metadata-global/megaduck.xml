@@ -13,5 +13,8 @@
       <systemColorPalette2>EAEAEA</systemColorPalette2>
       <systemColorPalette3>51BABB</systemColorPalette3>
       <systemColorPalette4>819B73</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>17999A</iiSUColor1>
+	  <iiSUColor2>179A59</iiSUColor2>
+	</variables>
 </theme>

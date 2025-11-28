@@ -13,5 +13,8 @@
       <systemColorPalette2>268340</systemColorPalette2>
       <systemColorPalette3>20317F</systemColorPalette3>
       <systemColorPalette4>B73E3A</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>DCAF36</iiSUColor1>
+	  <iiSUColor2>DC5C36</iiSUColor2>
+	</variables>
 </theme>

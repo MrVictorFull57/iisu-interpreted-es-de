@@ -13,5 +13,8 @@
       <systemColorPalette2>E6E7E8</systemColorPalette2>
       <systemColorPalette3>C0A987</systemColorPalette3>
       <systemColorPalette4>AA1A41</systemColorPalette4>
-	  <systemCartSize>105-170</systemCartSize>    </variables>
+	  <systemCartSize>105-170</systemCartSize>
+	  <iiSUColor1>B93041</iiSUColor1>
+	  <iiSUColor2>B93086</iiSUColor2>
+	</variables>
 </theme>

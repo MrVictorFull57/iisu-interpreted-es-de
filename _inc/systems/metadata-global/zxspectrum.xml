@@ -13,6 +13,9 @@
       <systemColorPalette2>EDBA01</systemColorPalette2>
       <systemColorPalette3>009C37</systemColorPalette3>
       <systemColorPalette4>02559C</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize><systembackgroundColor>FF000000</systembackgroundColor>
-   </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <systembackgroundColor>FF000000</systembackgroundColor>
+	  <iiSUColor1>8F1B12</iiSUColor1>
+	  <iiSUColor2>8F5A12</iiSUColor2>
+	</variables>
 </theme>

@@ -15,5 +15,8 @@ Development of the Saturn began in 1992, the same year Sega's groundbreaking 3D 
       <systemColorPalette2>FDE862</systemColorPalette2>
       <systemColorPalette3>2E5CCF</systemColorPalette3>
       <systemColorPalette4>BD3786</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>4FA66A</iiSUColor1>
+	  <iiSUColor2>60A64F</iiSUColor2>
+	</variables>
 </theme>

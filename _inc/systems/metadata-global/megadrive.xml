@@ -9,5 +9,8 @@
       <systemHardwareType>Console</systemHardwareType>
       <systemCoverSize>243-340</systemCoverSize>
       <systemColor>0C7BCB</systemColor>
-	  <systemCartSize>112-67</systemCartSize>    </variables>
+	  <systemCartSize>112-67</systemCartSize>
+	  <iiSUColor1>0C7BCB</iiSUColor1>
+	  <iiSUColor2>0C1BCB</iiSUColor2>
+	</variables>
 </theme>

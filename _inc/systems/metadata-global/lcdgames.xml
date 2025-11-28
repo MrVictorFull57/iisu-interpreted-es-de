@@ -17,5 +17,8 @@ Handhelds' popularity was at its peak from the late 1970s into the early 1990s b
       <systemColorPalette2>A24F41</systemColorPalette2>
       <systemColorPalette3>C3C9C7</systemColorPalette3>
       <systemColorPalette4>3D6F78</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>CE413E</iiSUColor1>
+	  <iiSUColor2>CE893E</iiSUColor2>
+	</variables>
 </theme>

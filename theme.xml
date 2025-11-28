@@ -31,6 +31,9 @@ by:   	MrFull57
 			<CorHelpFundo>ffffffcc</CorHelpFundo>
 			<CorHelpFundo2>d1cddacc</CorHelpFundo2>
 			<CorDeFato>light</CorDeFato>
+			<ImagemSeletor>./_inc/images/grid-seletor-light.png</ImagemSeletor>
+			<ItemForaOpacidade>0.7</ItemForaOpacidade>
+			<ItemForaTonalidade>0.97</ItemForaTonalidade>
 		</variables>
     </colorScheme>
 	<colorScheme name="dark">
@@ -46,6 +49,9 @@ by:   	MrFull57
 			<CorHelpFundo>ffffff44</CorHelpFundo>
 			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
 			<CorDeFato>dark</CorDeFato>
+			<ImagemSeletor>./_inc/images/grid-seletor-dark.png</ImagemSeletor>
+			<ItemForaOpacidade>0.97</ItemForaOpacidade>
+			<ItemForaTonalidade>0.7</ItemForaTonalidade>
 		</variables>
     </colorScheme>
 	<colorScheme name="blue">
@@ -61,6 +67,9 @@ by:   	MrFull57
 			<CorHelpFundo>ffffff44</CorHelpFundo>
 			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
 			<CorDeFato>blue</CorDeFato>
+			<ImagemSeletor>./_inc/images/grid-seletor-dark.png</ImagemSeletor>
+			<ItemForaOpacidade>0.97</ItemForaOpacidade>
+			<ItemForaTonalidade>0.7</ItemForaTonalidade>
 		</variables>
     </colorScheme>
 	<colorScheme name="green">
@@ -76,6 +85,9 @@ by:   	MrFull57
 			<CorHelpFundo>ffffff44</CorHelpFundo>
 			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
 			<CorDeFato>green</CorDeFato>
+			<ImagemSeletor>./_inc/images/grid-seletor-dark.png</ImagemSeletor>
+			<ItemForaOpacidade>0.97</ItemForaOpacidade>
+			<ItemForaTonalidade>0.7</ItemForaTonalidade>
 		</variables>
     </colorScheme>
 	<colorScheme name="teal">
@@ -91,6 +103,9 @@ by:   	MrFull57
 			<CorHelpFundo>ffffff44</CorHelpFundo>
 			<CorHelpFundo2>d1cdda44</CorHelpFundo2>
 			<CorDeFato>teal</CorDeFato>
+			<ImagemSeletor>./_inc/images/grid-seletor-dark.png</ImagemSeletor>
+			<ItemForaOpacidade>0.97</ItemForaOpacidade>
+			<ItemForaTonalidade>0.7</ItemForaTonalidade>
 		</variables>
     </colorScheme>
 
@@ -112,14 +127,38 @@ by:   	MrFull57
 			<path>./_inc/images/${CorDeFato}/reloginho.png</path>
 			<zIndex>5</zIndex>
 			<interpolation>linear</interpolation>
+			<color>ffffffee</color>
 		</image>
 		<image name="setinha-com-ou-sem-controle">
+			<origin>0 0.5</origin>
+			<zIndex>6</zIndex>
+			<color>${iiSUColor1}</color>
+			<colorEnd>${iiSUColor2}</colorEnd>
+			<gradientType>vertical</gradientType>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="setinha-com-ou-sem-controle-fundo">
+			<origin>0 0.5</origin>
+			<zIndex>5</zIndex>
+			<color>${CorMiniFundo}</color>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="setinha-com-ou-sem-controle-sombra">
+			<origin>0 0.5</origin>
+			<zIndex>4</zIndex>
+			<color>00000033</color>
+			<interpolation>linear</interpolation>
+		</image>
+		<image name="setinha-apenas,setinha-apenas-sombra">
+			<path>./_inc/images/setinha-sem-controle.png</path>
+		</image>
+		<image name="setinha-apenas">
 			<origin>0 0.5</origin>
 			<zIndex>5</zIndex>
 			<color>${CorLetrasTitulos}</color>
 			<interpolation>linear</interpolation>
 		</image>
-		<image name="setinha-com-ou-sem-controle-sombra">
+		<image name="setinha-apenas-sombra">
 			<origin>0 0.5</origin>
 			<zIndex>4</zIndex>
 			<color>00000033</color>
@@ -220,10 +259,13 @@ by:   	MrFull57
 			<selectedItemMargins>0.11 0.11</selectedItemMargins>
 		</carousel>
 		<image name="setinha-com-ou-sem-controle">
-			<path>./_inc/images/setinha-com-controle.png</path>
+			<path>./_inc/images/new-controle-borda.png</path>
+		</image>
+		<image name="setinha-com-ou-sem-controle-fundo">
+			<path>./_inc/images/new-controle-fundo.png</path>
 		</image>
 		<image name="setinha-com-ou-sem-controle-sombra">
-			<path>./_inc/images/setinha-com-controle.png</path>
+			<path>./_inc/images/new-controle-borda.png</path>
 		</image>
 		<text name="system-nome,system-nome-sombra,auto-nome,auto-nome-sombra,custom-nome,custom-nome-sombra">
 			<origin>0 1</origin>
@@ -319,34 +361,7 @@ by:   	MrFull57
 			<opacity>${FundoOpacidade}</opacity>
 			<saturation>${FundoSaturacao}</saturation>
 		</image>
-		<carousel name="game-carousel">
-			<origin>0.5 0.5</origin>
-			<size>0.7 1</size>
-			<type>vertical</type>
-			<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
-			<unfocusedItemDimming>0.9</unfocusedItemDimming>
-			<imageType>cover</imageType>
-			<imageCornerRadius>0.008</imageCornerRadius>
-			<defaultImage>${fallbackGame}</defaultImage>
-			<defaultFolderImage>${fallbackSystem}</defaultFolderImage>
-			<fastScrolling>true</fastScrolling>
-			<color>00000000</color>
-			<textColor>${CorLetrasTitulos}</textColor>
-			<textBackgroundColor>33333340</textBackgroundColor>
-			<fontSize>0.03</fontSize>
-			<itemScale>2</itemScale>
-			<maxItemCount>5</maxItemCount>
-			<selectedItemMargins>0.11 0.11</selectedItemMargins>
-			<selectedItemOffset>0.09 0</selectedItemOffset>
-			<fastScrolling>true</fastScrolling>
-			<imageInterpolation>nearest</imageInterpolation>
-		</carousel>
-		<image name="setinha-com-ou-sem-controle">
-			<path>./_inc/images/setinha-sem-controle.png</path>
-		</image>
-		<image name="setinha-com-ou-sem-controle-sombra">
-			<path>./_inc/images/setinha-sem-controle.png</path>
-		</image>
+
 		<image name="system-icon">
 			<path>${artworkFolder}</path>
 			<default>${fallbackSystem}</default>
@@ -361,23 +376,22 @@ by:   	MrFull57
 			<zIndex>4</zIndex>
 		</image>
 		<text name="carousel-name,carousel-name-sombra">
-			<origin>0 1</origin>
-			<size>0.45 0.2</size>
-			<fontSize>0.065</fontSize>
 			<lineSpacing>1.1</lineSpacing>
-			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${fontMedium}</fontPath>
-			<color>${CorLetrasTitulos}</color>
 			<metadata>name</metadata>
 		</text>
-		<text name="carousel-name">
-			<color>${CorLetrasTitulos}</color>
-		</text>
+		
 		<text name="carousel-name-sombra">
 			<color>00000033</color>
 			<zIndex>5</zIndex>
 		</text>
+		<image name="fundo-titulo-roxo">
+			<zIndex>4</zIndex>
+			<origin>0 0.5</origin>
+			<metadataElement>true</metadataElement>
+			<interpolation>linear</interpolation>
+		</image>
 		<datetime name="textlist-releasedate,textlist-lastplayed">
 			<origin>0 0.5</origin>
 			<size>0.45 0.16</size>
@@ -398,6 +412,7 @@ by:   	MrFull57
 		</text>
 		<datetime name="textlist-releasedate">
 			<metadata>releasedate</metadata>
+			<format>%d/%m/%Y</format>
 		</datetime>
 		<text name="textlist-players">
 			<size>0.45 0.16</size>
@@ -476,7 +491,67 @@ by:   	MrFull57
 		</text>
 	</view>
 
-	<variant name="gamelist-carousel-default">
+	<variant name="gamelist-carousel-default,gamelist-carousel-noicons,gamelist-carousel-noclock,gamelist-carousel-neither">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<origin>0.5 0.5</origin>
+				<size>0.7 1</size>
+				<type>vertical</type>
+				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+				<unfocusedItemDimming>0.9</unfocusedItemDimming>
+				<imageType>cover</imageType>
+				<imageCornerRadius>0.008</imageCornerRadius>
+				<defaultImage>${fallbackGame}</defaultImage>
+				<defaultFolderImage>${fallbackSystem}</defaultFolderImage>
+				<fastScrolling>true</fastScrolling>
+				<color>00000000</color>
+				<textColor>${CorLetrasTitulos}</textColor>
+				<textBackgroundColor>33333340</textBackgroundColor>
+				<fontSize>0.03</fontSize>
+				<itemScale>2</itemScale>
+				<maxItemCount>5</maxItemCount>
+				<selectedItemMargins>0.11 0.11</selectedItemMargins>
+				<selectedItemOffset>0.09 0</selectedItemOffset>
+				<fastScrolling>true</fastScrolling>
+				<imageInterpolation>nearest</imageInterpolation>
+			</carousel>
+			<text name="carousel-name,carousel-name-custom">
+				<color>${CorLetrasTitulos}</color>
+			</text>
+		</view>
+	</variant>
+	
+	<variant name="grid">
+		<view name="gamelist">
+			<grid name="game-grid">
+				<origin>0 0</origin>
+				<imageRelativeScale>0.9</imageRelativeScale>				
+				<imageType>cover</imageType>
+				<defaultImage>${fallbackGame}</defaultImage>
+				<defaultFolderImage>${fallbackSystem}</defaultFolderImage>
+				<itemScale>1.05</itemScale>
+				<itemSpacing>0.00625 0</itemSpacing>
+				<unfocusedItemOpacity>${ItemForaOpacidade}</unfocusedItemOpacity>
+				<unfocusedItemDimming>${ItemForaTonalidade}</unfocusedItemDimming>
+				<fontSize>0.03</fontSize>
+				<textRelativeScale>0.9</textRelativeScale>
+				<textColor>ffffff</textColor>
+				<fractionalRows>false</fractionalRows>
+				<scaleInwards>true</scaleInwards>
+				<backgroundImage>./_inc/images/borda-sombra.png</backgroundImage>
+				<backgroundRelativeScale>0.9225</backgroundRelativeScale>
+				<selectorLayer>top</selectorLayer>
+				<selectorRelativeScale>0.97</selectorRelativeScale>
+				<selectorCornerRadius>0</selectorCornerRadius>
+				<selectorImage>${ImagemSeletor}</selectorImage>
+			</grid>
+			<text name="carousel-name,carousel-name-custom">
+				<color>FFFFFF</color>
+			</text>
+		</view>
+	</variant>
+	
+	<variant name="gamelist-carousel-default,grid">
 		
 	</variant>
 
@@ -637,6 +712,9 @@ by:   	MrFull57
     </aspectRatio>
 	<aspectRatio name="19.5:9">
 		<include>./aspect-ratio-19_5-9.xml</include>
+    </aspectRatio>
+	<aspectRatio name="8:7">
+		<include>./aspect-ratio-8-7.xml</include>
     </aspectRatio>
 	
 	<view name="all">

@@ -14,5 +14,8 @@
       <systemColorPalette2>89918F</systemColorPalette2>
       <systemColorPalette3>DC3114</systemColorPalette3>
       <systemColorPalette4>F8D239</systemColorPalette4>
-	  <systemCartSize>105-170</systemCartSize>    </variables>
+	  <systemCartSize>105-170</systemCartSize>
+	  <iiSUColor1>EE820D</iiSUColor1>
+	  <iiSUColor2>EAEE0D</iiSUColor2>
+	</variables>
 </theme>

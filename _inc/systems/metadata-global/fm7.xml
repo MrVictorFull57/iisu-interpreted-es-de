@@ -13,5 +13,8 @@
       <systemColorPalette2>777777</systemColorPalette2>
       <systemColorPalette3>555555</systemColorPalette3>
       <systemColorPalette4>333333</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>E8B229</iiSUColor1>
+	  <iiSUColor2>E85229</iiSUColor2>
+	</variables>
 </theme>

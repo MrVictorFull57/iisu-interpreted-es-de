@@ -15,5 +15,8 @@ The Xbox 360 features an online service, Xbox Live, which was expanded from its 
       <systemColorPalette2>CECECE</systemColorPalette2>
       <systemColorPalette3>2FA74D</systemColorPalette3>
       <systemColorPalette4>9D9FA2</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>91B61C</iiSUColor1>
+	  <iiSUColor2>B68E1C</iiSUColor2>
+	</variables>
 </theme>

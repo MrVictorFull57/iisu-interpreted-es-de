@@ -15,5 +15,8 @@ The NAOMI was succeeded by the Sega Hikaru and Sega NAOMI 2 boards, though havin
       <systemColorPalette2>A39B7C</systemColorPalette2>
       <systemColorPalette3>C75433</systemColorPalette3>
       <systemColorPalette4>243551</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>EE820D</iiSUColor1>
+	  <iiSUColor2>EAEE0D</iiSUColor2>
+	</variables>
 </theme>

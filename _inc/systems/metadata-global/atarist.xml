@@ -17,5 +17,8 @@ The ST was sold with either Atari's color monitor or the less expensive monochro
       <systemColorPalette2>3C62A7</systemColorPalette2>
       <systemColorPalette3>000000</systemColorPalette3>
       <systemColorPalette4>ECECEC</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>0088D1</iiSUColor1>
+	  <iiSUColor2>00D1B2</iiSUColor2>
+	</variables>
 </theme>

@@ -13,5 +13,8 @@
       <systemColorPalette2>BA2318</systemColorPalette2>
       <systemColorPalette3>0A2A8D</systemColorPalette3>
       <systemColorPalette4>007544</systemColorPalette4>
-	  <systemCartSize>112-67</systemCartSize>    </variables>
+	  <systemCartSize>112-67</systemCartSize>
+	  <iiSUColor1>FED01B</iiSUColor1>
+	  <iiSUColor2>BAFE1B</iiSUColor2>
+	</variables>
 </theme>

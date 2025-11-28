@@ -15,5 +15,8 @@ MSX systems were popular in Japan and several other countries. Sony was the prim
       <systemColorPalette2>212324</systemColorPalette2>
       <systemColorPalette3>656266</systemColorPalette3>
       <systemColorPalette4>DEE0E0</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>30A8EB</iiSUColor1>
+	  <iiSUColor2>304AEB</iiSUColor2>
+	</variables>
 </theme>

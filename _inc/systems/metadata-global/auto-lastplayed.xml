@@ -8,7 +8,10 @@
       <systemReleaseDateFormated>Various</systemReleaseDateFormated>
       <systemHardwareType>Recent</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
-      <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>    </variables>
+      <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>305482</iiSUColor1>
+	  <iiSUColor2>353082</iiSUColor2>
+	</variables>
 
 
 

@@ -15,5 +15,8 @@ The VIC-20 was called VC-20 in Germany because the pronunciation of VIC with a G
       <systemColorPalette2>D3D3C9</systemColorPalette2>
       <systemColorPalette3>FFCD1C</systemColorPalette3>
       <systemColorPalette4>DC2770</systemColorPalette4>
-	  <systemCartSize>99-168</systemCartSize>    </variables>
+	  <systemCartSize>99-168</systemCartSize>
+	  <iiSUColor1>5F8FC8</iiSUColor1>
+	  <iiSUColor2>635FC8</iiSUColor2>
+	</variables>
 </theme>

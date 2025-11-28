@@ -13,5 +13,8 @@
       <systemColorPalette1>4F5054</systemColorPalette1>
       <systemColorPalette2>737375</systemColorPalette2>
       <systemColorPalette3>F4BE46</systemColorPalette3>
-      <systemColorPalette4>E45B12</systemColorPalette4>    </variables>
+      <systemColorPalette4>E45B12</systemColorPalette4>
+	  <iiSUColor1>3161BC</iiSUColor1>
+	  <iiSUColor2>4631BC</iiSUColor2>
+	</variables>
 </theme>

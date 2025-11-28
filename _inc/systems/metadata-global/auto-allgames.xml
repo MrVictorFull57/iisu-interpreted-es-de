@@ -9,9 +9,9 @@
       <systemHardwareType>All</systemHardwareType>
       <systemCoverSize>1-1</systemCoverSize>
       <systemCartSize>1-1</systemCartSize>
-
-
-   </variables>
+	  <iiSUColor1>DDCA78</iiSUColor1>
+	  <iiSUColor2>DD9878</iiSUColor2>
+	</variables>
 
 
 </theme>

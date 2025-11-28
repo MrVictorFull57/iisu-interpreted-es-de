@@ -13,5 +13,8 @@
       <systemColorPalette2>CFA634</systemColorPalette2>
       <systemColorPalette3>973E3A</systemColorPalette3>
       <systemColorPalette4>1C6EB8</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>3D5799</iiSUColor1>
+	  <iiSUColor2>3D8599</iiSUColor2>
+	</variables>
 </theme>

@@ -15,5 +15,8 @@ The games use a parallax effect to create the illusion of depth. Sales failed to
       <systemColorPalette2>FE0016</systemColorPalette2>
       <systemColorPalette3>8A8C8E</systemColorPalette3>
       <systemColorPalette4>232323</systemColorPalette4>
-	  <systemCartSize>257-229</systemCartSize>    </variables>
+	  <systemCartSize>257-229</systemCartSize>
+	  <iiSUColor1>E1414A</iiSUColor1>
+	  <iiSUColor2>E1419A</iiSUColor2>
+	</variables>
 </theme>

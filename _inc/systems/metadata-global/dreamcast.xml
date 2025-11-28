@@ -15,5 +15,8 @@ In contrast to the expensive hardware of the unsuccessful Sega Saturn, the Dream
       <systemColorPalette2>3E649F</systemColorPalette2>
       <systemColorPalette3>030303</systemColorPalette3>
       <systemColorPalette4>E4E5E4</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>4C7ED6</iiSUColor1>
+	  <iiSUColor2>4CC3D6</iiSUColor2>
+	</variables>
 </theme>

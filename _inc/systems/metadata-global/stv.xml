@@ -15,5 +15,8 @@ The majority of ST-V titles were released only in Japan, but a notable exception
       <systemColorPalette2>F7ED18</systemColorPalette2>
       <systemColorPalette3>F4133D</systemColorPalette3>
       <systemColorPalette4>199A40</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>4A529D</iiSUColor1>
+	  <iiSUColor2>4A7B9D</iiSUColor2>
+	</variables>
 </theme>

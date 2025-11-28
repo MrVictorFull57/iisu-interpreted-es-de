@@ -13,5 +13,8 @@
       <systemColorPalette2>65BADE</systemColorPalette2>
       <systemColorPalette3>000000</systemColorPalette3>
       <systemColorPalette4>EBECEE</systemColorPalette4>
-	  <systemCartSize>5-7</systemCartSize>    </variables>
+	  <systemCartSize>5-7</systemCartSize>
+	  <iiSUColor1>DA4A4B</iiSUColor1>
+	  <iiSUColor2>DA4A93</iiSUColor2>
+	</variables>
 </theme>

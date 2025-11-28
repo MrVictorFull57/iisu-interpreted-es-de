@@ -11,5 +11,7 @@
         <systemColorPalette2>B63523</systemColorPalette2>
         <systemColorPalette3>6F1312</systemColorPalette3>
         <systemColorPalette4>182142</systemColorPalette4>
-    </variables>
+	  <iiSUColor1>CE413E</iiSUColor1>
+	  <iiSUColor2>CE893E</iiSUColor2>
+	</variables>
 </theme>

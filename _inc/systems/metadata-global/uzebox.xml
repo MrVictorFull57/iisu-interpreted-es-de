@@ -15,5 +15,8 @@
       <systemColorPalette2>EDC63D</systemColorPalette2>
       <systemColorPalette3>C9C2BF</systemColorPalette3>
       <systemColorPalette4>07336A</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>CE3D3D</iiSUColor1>
+	  <iiSUColor2>CE3D86</iiSUColor2>
+	</variables>
 </theme>

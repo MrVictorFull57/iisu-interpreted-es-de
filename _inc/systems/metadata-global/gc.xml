@@ -16,5 +16,7 @@ The GameCube is the first Nintendo console to use optical discs as its primary s
       <systemColorPalette3>CBC9E0</systemColorPalette3>
       <systemColorPalette4>1E1C11</systemColorPalette4>
 	  <systemCartSize>1-1</systemCartSize>
-        </variables>
+	  <iiSUColor1>82A7EE</iiSUColor1>
+	  <iiSUColor2>9382EE</iiSUColor2>
+	</variables>
 </theme>

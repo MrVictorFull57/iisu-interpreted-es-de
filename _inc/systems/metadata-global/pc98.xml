@@ -17,5 +17,8 @@ Initially conceived as a solution for industrial and office applications, by 198
       <systemColorPalette2>16643C</systemColorPalette2>
       <systemColorPalette3>00499A</systemColorPalette3>
       <systemColorPalette4>3B3431</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>5185B2</iiSUColor1>
+	  <iiSUColor2>51B2AE</iiSUColor2>
+	</variables>
 </theme>

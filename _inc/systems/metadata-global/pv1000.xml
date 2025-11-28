@@ -17,5 +17,8 @@ The PV-1000 is powered by a Zilog Z80 CPU, with 2 KB RAM, with 1 KB allocated as
       <systemColorPalette2>4FBBB2</systemColorPalette2>
       <systemColorPalette3>DCD9D1</systemColorPalette3>
       <systemColorPalette4>D13931</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>972F32</iiSUColor1>
+	  <iiSUColor2>972F66</iiSUColor2>
+	</variables>
 </theme>

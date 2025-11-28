@@ -21,5 +21,8 @@ Both parts (the C++ engine and the Lua scripts of your quest) communicate throug
       <systemColorPalette2>CD2943</systemColorPalette2>
       <systemColorPalette3>FFDF68</systemColorPalette3>
       <systemColorPalette4>647A54</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>271658</iiSUColor1>
+	  <iiSUColor2>162658</iiSUColor2>
+	</variables>
 </theme>

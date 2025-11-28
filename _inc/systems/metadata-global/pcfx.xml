@@ -15,5 +15,8 @@ The console is shaped like a tower PC and was meant to be similarly upgradeable.
       <systemColorPalette2>01015B</systemColorPalette2>
       <systemColorPalette3>5C3073</systemColorPalette3>
       <systemColorPalette4>F00020</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>9378DA</iiSUColor1>
+	  <iiSUColor2>C478DA</iiSUColor2>
+	</variables>
 </theme>

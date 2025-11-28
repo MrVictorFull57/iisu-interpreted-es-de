@@ -13,5 +13,8 @@
       <systemColorPalette2>EB4132</systemColorPalette2>
       <systemColorPalette3>FBBD00</systemColorPalette3>
       <systemColorPalette4>31AA52</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>5A9035</iiSUColor1>
+	  <iiSUColor2>889035</iiSUColor2>
+	</variables>
 </theme>

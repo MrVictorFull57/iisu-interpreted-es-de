@@ -15,5 +15,8 @@ The Vectrex, in contrast to other video-game systems available at the time, feat
       <systemColorPalette2>EC1D25</systemColorPalette2>
       <systemColorPalette3>11192E</systemColorPalette3>
       <systemColorPalette4>166FC1</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>4D98D8</iiSUColor1>
+	  <iiSUColor2>4DD8D2</iiSUColor2>
+	</variables>
 </theme>

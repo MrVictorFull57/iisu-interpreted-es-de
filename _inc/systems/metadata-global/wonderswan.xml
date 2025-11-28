@@ -15,5 +15,8 @@ Released in 1999 in the fifth generation of video game consoles, the WonderSwan 
       <systemColorPalette2>DBE0E1</systemColorPalette2>
       <systemColorPalette3>E72835</systemColorPalette3>
       <systemColorPalette4>282827</systemColorPalette4>
-	  <systemCartSize>112-67</systemCartSize>    </variables>
+	  <systemCartSize>112-67</systemCartSize>
+	  <iiSUColor1>76CDBE</iiSUColor1>
+	  <iiSUColor2>76B1CD</iiSUColor2>
+	</variables>
 </theme>

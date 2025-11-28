@@ -15,5 +15,8 @@ Announced in 1999, the PS2 offered backward-compatibility for its predecessor's 
       <systemColorPalette2>0098DF</systemColorPalette2>
 	  <systemCartSize>1-1</systemCartSize>
       <systemColorPalette3>40A9A8</systemColorPalette3>
-      <systemColorPalette4>849DCA</systemColorPalette4>    </variables>
+      <systemColorPalette4>849DCA</systemColorPalette4>
+	  <iiSUColor1>2E69BE</iiSUColor1>
+	  <iiSUColor2>3B2EBE</iiSUColor2>
+	</variables>
 </theme>

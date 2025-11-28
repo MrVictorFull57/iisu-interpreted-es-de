@@ -15,5 +15,8 @@ After a good sales start in both the U.S. and Japan with 14 launch titles (a rec
       <systemColorPalette2>18A94E</systemColorPalette2>
       <systemColorPalette3>1D9ED8</systemColorPalette3>
       <systemColorPalette4>25374A</systemColorPalette4>
-	  <systemCartSize>257-229</systemCartSize>    </variables>
+	  <systemCartSize>257-229</systemCartSize>
+	  <iiSUColor1>ECA045</iiSUColor1>
+	  <iiSUColor2>EC4C45</iiSUColor2>
+	</variables>
 </theme>

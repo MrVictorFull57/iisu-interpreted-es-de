@@ -15,5 +15,8 @@ The console was rushed to market, released several months before its initial rel
       <systemColorPalette2>0091AD</systemColorPalette2>
       <systemColorPalette3>000000</systemColorPalette3>
       <systemColorPalette4>D9D9D9</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>69b5dc</iiSUColor1>
+	  <iiSUColor2>69DCC9</iiSUColor2>
+	</variables>
 </theme>

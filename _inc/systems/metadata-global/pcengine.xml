@@ -15,5 +15,8 @@ The PC Engine has an 8-bit CPU, a 16-bit video color encoder, and a 16-bit video
       <systemColorPalette2>FE0000</systemColorPalette2>
       <systemColorPalette3>333333</systemColorPalette3>
       <systemColorPalette4>D9D9D9</systemColorPalette4>
-	  <systemCartSize>3-5</systemCartSize>    </variables>
+	  <systemCartSize>3-5</systemCartSize>
+	  <iiSUColor1>BB3F41</iiSUColor1>
+	  <iiSUColor2>BB3F7F</iiSUColor2>
+	</variables>
 </theme>

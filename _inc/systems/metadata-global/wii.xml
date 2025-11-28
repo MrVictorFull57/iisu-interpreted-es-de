@@ -15,5 +15,8 @@ As of the first quarter of 2016, the Wii led its generation over the PlayStation
       <systemColorPalette2>D1D1D1</systemColorPalette2>
       <systemColorPalette3>005C9A</systemColorPalette3>
       <systemColorPalette4>1E1C1A</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>7ECBE8</iiSUColor1>
+	  <iiSUColor2>7EE8D0</iiSUColor2>
+	</variables>
 </theme>

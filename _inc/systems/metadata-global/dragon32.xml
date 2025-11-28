@@ -15,5 +15,8 @@ The model numbers reflect the primary difference between the two machines, which
       <systemColorPalette2>FBFA35</systemColorPalette2>
       <systemColorPalette3>74B719</systemColorPalette3>
       <systemColorPalette4>3262D9</systemColorPalette4>
-	  <systemCartSize>1-1</systemCartSize>    </variables>
+	  <systemCartSize>1-1</systemCartSize>
+	  <iiSUColor1>309496</iiSUColor1>
+	  <iiSUColor2>309665</iiSUColor2>
+	</variables>
 </theme>
