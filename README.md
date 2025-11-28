@@ -1,9 +1,24 @@
 # iiSU Interpreted
-A work-in-progress port of iiSU, UsagiShade's upcoming clean UI to [ES-DE](https://es-de.org/). Includes light, dark, blue, green and teal color variations, as well as some additional metadata added to the gamelist for completion.
+A work-in-progress port of iiSU, UsagiShade's upcoming clean UI to [ES-DE](https://es-de.org/).
 
-Thanks to the collaboration of [@anthonycaccese](https://github.com/anthonycaccese), various aspect ratios are now compatible. 16:9, 16:10, 21:9, 4:3 and 19.5:9.
+Includes the following color variations:
+- Light
+- Dark
+- Blue
+- Green
+- Teal
 
-Through the 4 available variants, you can choose to hide the clock, the system view controller icons, or both, or keep the default view.
+As well as some additional metadata added to the gamelist for completion.
+
+Thanks to the collaboration of [@anthonycaccese](https://github.com/anthonycaccese) and [@solojazz](https://github.com/solojazz), various aspect ratios are now compatible.
+- 16:9
+- 16:10
+- 21:9
+- 4:3
+- 19.5:9
+- 8:7
+
+Through the 5 available variants (including a grid one), you can choose to hide the clock, the system view controller icons, or both, or keep the default view.
 
 ### **IMPORTANT**
 For version 3.4.0 or newer, due to playtime tracking support. To avoid issues and ensure that this feature works correctly, please ensure that your ES-DE is up to date.
