@@ -412,7 +412,6 @@ by:   	MrFull57
 		</text>
 		<datetime name="textlist-releasedate">
 			<metadata>releasedate</metadata>
-			<format>%d/%m/%Y</format>
 		</datetime>
 		<text name="textlist-players">
 			<size>0.45 0.16</size>
