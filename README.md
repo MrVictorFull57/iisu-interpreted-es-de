@@ -1,5 +1,5 @@
 # iiSU Interpreted
-A work-in-progress port of iiSU, UsagiShade's upcoming clean UI to [ES-DE](https://es-de.org/).
+A work-in-progress port of iiSU, an upcoming clean UI to [ES-DE](https://es-de.org/).
 
 Includes the following color variations:
 - Light
