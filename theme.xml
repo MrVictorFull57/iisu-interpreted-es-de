@@ -537,7 +537,6 @@ by:   	MrFull57
 				<textColor>ffffff</textColor>
 				<fractionalRows>false</fractionalRows>
 				<scaleInwards>true</scaleInwards>
-				<backgroundImage>./_inc/images/borda-sombra.png</backgroundImage>
 				<backgroundRelativeScale>0.9225</backgroundRelativeScale>
 				<selectorLayer>top</selectorLayer>
 				<selectorRelativeScale>0.97</selectorRelativeScale>
