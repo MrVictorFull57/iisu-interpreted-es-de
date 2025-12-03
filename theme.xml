@@ -575,11 +575,14 @@ by:   	MrFull57
 	<variant name="gamelist-carousel-neither">	
 		<view name="system,gamelist">
 			<image name="reloginho">
-				<path>./_inc/images/${CorDeFato}/sem-reloginho.png</path>
+				<visible>false</visible>
 			</image>
 			<clock name="clock">
 				<scope>none</scope>
 			</clock>
+			<systemstatus name="system-status">
+				<scope>none</scope>
+			</systemstatus>
 		</view>
 		<view name="system">
 			<image name="system-console">
