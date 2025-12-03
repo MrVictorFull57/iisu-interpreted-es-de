@@ -151,6 +151,10 @@
 		<label>Grid</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="grid-neither">
+		<label>Grid Without Either</label>
+		<selectable>true</selectable>
+	</variant>
 
 	<!--///	Esquemas de Cores ///-->
     <colorScheme name="light">

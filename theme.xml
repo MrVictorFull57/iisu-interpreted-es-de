@@ -520,7 +520,7 @@ by:   	MrFull57
 		</view>
 	</variant>
 	
-	<variant name="grid">
+	<variant name="grid,grid-neither">
 		<view name="gamelist">
 			<grid name="game-grid">
 				<origin>0 0</origin>
@@ -572,7 +572,7 @@ by:   	MrFull57
 		</view>
 	</variant>
 	
-	<variant name="gamelist-carousel-neither">	
+	<variant name="gamelist-carousel-neither,grid-neither">	
 		<view name="system,gamelist">
 			<image name="reloginho">
 				<visible>false</visible>

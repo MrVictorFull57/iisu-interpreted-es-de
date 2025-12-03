@@ -136,7 +136,7 @@
 			</text>
 		</view>
 	</variant>
-	<variant name="grid">
+	<variant name="grid,grid-neither">
 		<view name="gamelist">
 			<grid name="game-grid">
 				<pos>0.075 0.15</pos>
